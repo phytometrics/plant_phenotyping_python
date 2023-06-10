@@ -1,13 +1,14 @@
 # Image-Analysis for Plant Biologists with Python
 
 
+## Table of Contents
 - [イントロ](columns/introduction.md)
 - ハンズオン
-  - [u2netによるsegmenataion](notebooks/u2netp.ipynb)
+  - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 - コラム
-  - [安易にAIと呼ぶ危険性について](columns/using_the_term_AI.md)
+  - [安直になんでもかんでもAIと呼ぶ危険性について](columns/using_the_term_AI.md)
   - [レナを超えて](columns/lenna.md)
-
+  - 植物データセット作成は難しい。。ですよ
 
 
 

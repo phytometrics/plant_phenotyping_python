@@ -16,7 +16,11 @@
 
 
 [1] https://www.bbc.com/news/technology-19260550
-[2] https://www.sfgate.com/news/article/How-a-Nude-Playboy-Photo-Became-a-Fixture-14878319.php
+
+[2] https://www.sfgate.com/news/article/
+How-a-Nude-Playboy-Photo-Became-a-Fixture-14878319.php
+
 [3] https://huggingface.co/Cxxs/ImageBind-LLM
+
 [4] https://openai.com/dall-e-2
 
