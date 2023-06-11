@@ -3,7 +3,7 @@
 
 ## Table of Contents
 - [イントロ](columns/introduction.md)
-- コアなハンズオン
+- ハンズオン
   - 画像解析基礎
     - イネ種子形状解析
       - 手動の閾値分離
@@ -22,6 +22,7 @@
 - コラム
   - 座標系:xyなのかyxなのかrcなのか
   - [安直になんでもかんでもAIと呼ぶんじゃない](columns/using_the_term_AI.md)
+  - [ファイルとフォルダ名の命名規則について](columns/file_name.md)
   - [レナを超えて](columns/lenna.md)
   - 植物データセット作成は難しい
 
