@@ -3,12 +3,28 @@
 
 ## Table of Contents
 - [イントロ](columns/introduction.md)
-- ハンズオン
+- コアなハンズオン
+  - 画像解析基礎
+    - イネ種子形状解析
+      - 手動の閾値分離
+      - regionpropsから
+    - 楕円フーリエによる形状解析
+  - 植物病害識別診断モデル
+    - Keras CNNでスクラッチ実装
+    - confusion matrix
+    - ファインチューニング
+    - Grad-CAM、guided backpropagationで可視化する
+  - Semantic Segmentationでなにか１つ
+- 一般モデルが植物フェノタイピングにつかえるか？
   - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+  - Segment Anything
+  - Grounding DINO
 - コラム
-  - [安直になんでもかんでもAIと呼ぶ危険性について](columns/using_the_term_AI.md)
+  - 座標系:xyなのかyxなのかrcなのか
+  - [安直になんでもかんでもAIと呼ぶんじゃない](columns/using_the_term_AI.md)
   - [レナを超えて](columns/lenna.md)
-  - 植物データセット作成は難しい。。ですよ
+  - 植物データセット作成は難しい
+
 
 
 
