@@ -6,14 +6,12 @@
 - ハンズオン
   - 画像解析基礎
     - イネ種子形状解析
-      - 手動の閾値分離
-      - regionpropsから
     - 楕円フーリエによる形状解析
-  - [植物病害識別診断モデル](notebooks/plantvilllage.ipynb)
+  - [植物病害識別診断](notebooks/plantvilllage.ipynb)
   - Grad-CAM、guided backpropagationによる可視化
   - Semantic Segmentationでなにか１つ pytorch segmentationを使う
-- 一般モデルが植物フェノタイピングにつかえるか？
   - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+- おまけ？
   - Segment Anything
   - Grounding DINO
 - コラム
