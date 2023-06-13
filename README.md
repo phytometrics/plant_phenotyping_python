@@ -26,6 +26,14 @@
   - Grounding DINO
 - 参考資料集
   - オンラインで便利なpython講座・資料まとめ
+    - リンク集にするか解説をつけるかは後で考える。
+    - http://mdsc.kyushu-u.ac.jp/lectures
+    - https://amorphous.tf.chiba-u.jp/lecture.files/chem_computer/index.html
+    - https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/245698
+    - https://utokyo-ipp.github.io/course/
+    - 
+
+
   - 使えそうな植物データセット一覧
 - コラム
   - 座標系:xyなのかyxなのかrcなのか
