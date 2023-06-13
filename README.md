@@ -4,7 +4,8 @@
 - [はじめに](columns/introduction.md)
 - ハンズオン
   - 画像解析基礎
-    - イネ種子形状解析（binarization, regionpropsの使い方)
+    - イネ種子形状解析 (binarization, regionpropsの使い方)
+    - 花粉染色定量解析
     - ぶどうの葉の形状解析（楕円フーリエ）
     - りんごの葉の形状解析と遺伝情報とのリンケージ（EFD、PH、他遺伝情報解析）
   - 応用編
@@ -16,7 +17,8 @@
     - Semantic Segmentation
       - Weed Segmenatation (pytorch segmentationあたりを使いたい)
     - Instance Segmenatation
-      - ???
+  - ???
+  - 
     - PlantSegを利用した3D共焦点画像解析
     - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 - おまけ？
