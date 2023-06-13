@@ -24,6 +24,9 @@
 - おまけ？
   - Segment Anything
   - Grounding DINO
+- 参考資料集
+  - オンラインで便利なpython講座・資料まとめ
+  - 使えそうな植物データセット一覧
 - コラム
   - 座標系:xyなのかyxなのかrcなのか
   - [安直になんでもかんでもAIと呼ぶんじゃない](columns/using_the_term_AI.md)
