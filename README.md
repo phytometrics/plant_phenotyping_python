@@ -1,5 +1,10 @@
 # Image-Analysis for Plant Biologists with Python
 
+気をつけること
+- GPLv3は使用しても問題ない。商用利用不可に関してはデータセット、レポジトリなどの使用は極力避ける。確認のため、使用レポやデータに関してはライセンス明記する。ex. [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+- colabで極力やりたい。
+  - ```!python main.py``` 的な実行でもよい。
+  - 挿絵に関してはgitのレポにアップした画像を引用する形を望む。相対パスだとgithubで見えるけれどcolabでは見えない。vscodeとかIDEのgithubアップ機能を活用するか手動でリンクをはる。小さい画像ならbase64で直接埋め込んでもよい、かも。  
 
 ## Table of Contents
 - [はじめに](columns/introduction.md)
