@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-- [イントロ](columns/introduction.md)
+- [はじめに](columns/introduction.md)
 - ハンズオン
   - 画像解析基礎
     - イネ種子形状解析
