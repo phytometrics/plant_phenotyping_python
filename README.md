@@ -11,18 +11,20 @@
 - ハンズオン
   - 画像解析基礎
     - イネ種子形状解析（binarization, regionpropsの使い方)
-    - 植物の葉の形状解析(植物の葉、楕円フーリエ、PCA)
-  - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
-    - おまけGrad-CAM、guided backpropagationによる可視化
-  - Object Detection
-    - Wheat head detection?
-  - Semantic Segmentation
-    - Weed Segmenatation (pytorch segmentation)?
-  - Instance Segmenatation
-    - ???
-
-  - PlantSegを利用した3D共焦点画像解析
-  - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+    - ぶどうの葉の形状解析（楕円フーリエ）
+    - りんごの葉の形状解析と遺伝情報とのリンケージ（EFD、PH、他遺伝情報解析）
+  - 応用編
+    - 気孔検出（HOG、YOLOX）
+    - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
+      - おまけGrad-CAM、guided backpropagationによる可視化
+    - Object Detection
+      - Wheat head detection?
+    - Semantic Segmentation
+      - Weed Segmenatation (pytorch segmentationあたりを使いたい)
+    - Instance Segmenatation
+      - ???
+    - PlantSegを利用した3D共焦点画像解析
+    - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 - おまけ？
   - Segment Anything
   - Grounding DINO
