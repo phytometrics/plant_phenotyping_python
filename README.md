@@ -5,11 +5,14 @@
 - [はじめに](columns/introduction.md)
 - ハンズオン
   - 画像解析基礎
-    - イネ種子形状解析
-    - 楕円フーリエによる形状解析
-  - [植物病害識別診断](notebooks/plantvilllage.ipynb)
-  - Grad-CAM、guided backpropagationによる可視化
-  - Semantic Segmentationでなにか１つ pytorch segmentationを使う
+    - イネ種子形状解析（binarization, regionpropsの使い方)
+    - 植物の葉の形状解析(植物の葉、楕円フーリエ、PCA)
+  - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
+    - おまけGrad-CAM、guided backpropagationによる可視化
+  - Weed Segmenatation (pytorch segmentation)
+  - 
+  - Wheat head detection
+  - PlantSegを利用した3D共焦点画像解析
   - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 - おまけ？
   - Segment Anything
