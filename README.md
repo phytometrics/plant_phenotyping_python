@@ -11,15 +11,16 @@
   - 応用編
     - 気孔検出（HOG、YOLOX）
     - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
-      - おまけGrad-CAM、guided backpropagationによる可視化
+      - Grad-CAM、guided backpropagationによる可視化
     - Object Detection
-      - Wheat head detection?
+      - [YOLOv8を用いた小麦の穂検出モデルの作成](notebooks/globalwheat2020.ipynb)
+
     - Semantic Segmentation
       - Weed Segmenatation (pytorch segmentationあたりを使いたい)
     - Instance Segmenatation
-  - ???
-  - 
-    - PlantSegを利用した3D共焦点画像解析
+
+  - 応用編2
+    - [PlantSegによる細胞壁検出と細胞インスタンス・セグメンテーション3D共焦点画像解析](notebooks/plantseg.ipynb)
     - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 - おまけ？
   - Segment Anything
