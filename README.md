@@ -32,7 +32,8 @@
     - https://amorphous.tf.chiba-u.jp/lecture.files/chem_computer/index.html
     - https://repository.kulib.kyoto-u.ac.jp/dspace/handle/2433/245698
     - https://utokyo-ipp.github.io/course/
-    - 
+    - https://cs50.jp/web/2020/python/ （動画）
+      - https://cs50.jp/web/2020/python/notes/　（ノート）
 
 
   - 使えそうな植物データセット一覧
