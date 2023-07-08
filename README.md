@@ -13,8 +13,6 @@
     - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
       - Grad-CAM、guided backpropagationによる可視化
     - Object Detection
-      - [YOLOv8を用いた小麦の穂検出モデルの作成（2020年度版）](notebooks/globalwheat2020.ipynb)
-        - Kaggleの登録、データ取得とか解説予定？
       - [YOLOv8を用いた小麦の穂検出モデルの作成（2021年度版）](notebooks/globalwheat2021.ipynb)
         - Figshareから取得
 
