@@ -12,10 +12,7 @@
     - 気孔検出（HOG、YOLOX）
     - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
       - Grad-CAM、guided backpropagationによる可視化
-    - Object Detection
-      - [YOLOv8を用いた小麦の穂検出モデルの作成（2021年度版）](notebooks/globalwheat2021.ipynb)
-        - Figshareから取得
-
+    - [YOLOv8を用いた小麦の穂検出モデルの作成（2021年度版）](notebooks/globalwheat2021.ipynb)
     - Semantic Segmentation
       - Weed Segmenatation (pytorch segmentationあたりを使いたい)
     - Instance Segmenatation
