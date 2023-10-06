@@ -127,5 +127,5 @@ print(x_nchw.shape)  # Output: (10, 3, 128, 128)
 
 <img src=https://cdn.jsdelivr.net/gh/phytometrics/plant_phenotyping_python@main/assets/69d1a3f36713caefbe55702e304a27d7afa09254ceec62a7b35e7b2a56bf793d.png width=25%>
 
-打ち上げ花火を横からpython。dreamstudio (Stability AI)<sup>1</sup>を用いて生成しました。
+打ち上げ花火を横から見るpython。dreamstudio (Stability AI)<sup>1</sup>を用いて生成しました。
 1. https://dreamstudio.ai/generate

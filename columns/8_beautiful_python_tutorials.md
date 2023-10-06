@@ -17,3 +17,7 @@ CourseraのDeep Learning Specialization	Andrew Ng (Coursera)	深層学習の基�
 fast.aiのPractical Deep Learning for Coders	fast.ai	深層学習の基本と実用的なアプローチを学び、Pythonとfastaiライブラリを使用して画像認識タスクを実行する。	リンク
 Pythonで学ぶOpenCV	オライリージャパン	OpenCVライブラリを使用して、画像処理とコンピュータビジョンの基本を学べる。	リンク
 KaggleのComputer Vision Challenges	Kaggle	実世界の画像認識問題に取り組みながら、コンピュータビジョンと機械学習の技術を学ぶ。	リンク
+
+東大コース
+http://www.mi.u-tokyo.ac.jp/6university_consortium.html
+http://mdsc.kyushu-u.ac.jp/lectures
