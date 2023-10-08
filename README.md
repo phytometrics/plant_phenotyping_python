@@ -2,26 +2,27 @@
 
 ## Table of Contents
 - [はじめに](columns/introduction.md)
-- ハンズオン
-  - 画像解析基礎
-    - イネ種子形状解析 (binarization, regionpropsの使い方)
-    - 花粉染色定量解析
-    - ぶどうの葉の形状解析（楕円フーリエ）
-    - りんごの葉の形状解析と遺伝情報とのリンケージ（EFD、PH、他遺伝情報解析）
-  -　応用？編１
-    - 気孔検出（HOG、YOLOX）
-    - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
-      - Grad-CAM、guided backpropagationによる可視化
-    - [イネ収量予測モデル](notebooks/rieyieldcnn.ipynb)
-    - [YOLOv8を用いた小麦の穂検出モデルの作成（2021年度版）](notebooks/globalwheat2021.ipynb)
-    - Semantic Segmentation
-      - Weed Segmenatation (pytorch segmentationあたりを使いたい)
+- 画像解析基礎
+  - イネ種子形状解析 (binarization, regionpropsの使い方)
+  - 花粉染色定量解析
+  - ぶどうの葉の形状解析（楕円フーリエ）
+  - りんごの葉の形状解析と遺伝情報とのリンケージ（EFD、PH、他遺伝情報解析）
+    - https://figshare.com/articles/dataset/apple_leaf/5661919?file=9879463
+    - binary imageに
+-　応用？編１
+  - 気孔検出（HOG、YOLOX）
+  - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
+    - Grad-CAM、guided backpropagationによる可視化
+  - [イネ収量予測モデル](notebooks/rieyieldcnn.ipynb)
+  - [YOLOv8を用いた小麦の穂検出モデルの作成（2021年度版）](notebooks/globalwheat2021.ipynb)
+  - Segmentation
+    - Weed Segmenatation (pytorch segmentationあたりを使いたい)
     - Instance Segmenatation
-  - 応用編2
-    - [PlantSegによる細胞壁検出と細胞インスタンス・セグメンテーション3D共焦点画像解析](notebooks/plantseg.ipynb)
-    - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+- 応用編2
+  - [PlantSegによる細胞壁検出と細胞インスタンス・セグメンテーション3D共焦点画像解析](notebooks/plantseg.ipynb)
+  - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 
-    
+
 - おまけ？
   - Segment Anything
   - Grounding DINO
@@ -34,20 +35,6 @@
     - https://utokyo-ipp.github.io/course/
     - https://cs50.jp/web/2020/python/ （動画）
       - https://cs50.jp/web/2020/python/notes/　（ノート）
-
-
-  - 使えそうな植物データセット一覧
-- コラム
-  - 座標系:xyなのかyxなのかrcなのか
-  - [安直になんでもかんでもAIと呼ぶんじゃない](columns/using_the_term_AI.md)
-  - [ファイルとフォルダ名の命名規則について](columns/file_name.md)
-  - [レナを超えて](columns/lenna.md)
-  - 植物データセット作成は難しい
-
-
-
-
-##memo
 
 ### Plant Phenotyping Themesアイディア
 - U-Net
