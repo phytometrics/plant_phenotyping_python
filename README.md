@@ -2,25 +2,58 @@
 
 ## Table of Contents
 - [はじめに](columns/introduction.md)
-- 画像解析基礎
-  - イネ種子形状解析 (binarization, regionpropsの使い方)
-  - 花粉染色定量解析
-  - ぶどうの葉の形状解析（楕円フーリエ）
-  - りんごの葉の形状解析と遺伝情報とのリンケージ（EFD、PH、他遺伝情報解析）
-    - https://figshare.com/articles/dataset/apple_leaf/5661919?file=9879463
-    - binary imageに
--　応用？編１
-  - 気孔検出（HOG、YOLOX）
-  - [植物病害識別診断](notebooks/plantvilllage.ipynb)（PlantVillage, CNN）
-    - Grad-CAM、guided backpropagationによる可視化
-  - [イネ収量予測モデル](notebooks/rieyieldcnn.ipynb)
-  - [YOLOv8を用いた小麦の穂検出モデルの作成（2021年度版）](notebooks/globalwheat2021.ipynb)
+
+- プログラミング基礎
+  - Python（とColaboratory）の基礎
+  - 植物画像解析でよく使われるPythonコードの紹介
+- 植物画像解析基礎
+  - [ぶどう花粉活性度評価](notebooks/pollencounter.ipynb)
+    - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
+  - [イネ種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb)
+    - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
+  - [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)
+    - 楕円フーリエ記述子と輪郭形状解析
+    - SNPを利用したPCA/GWAS/GS 解析
+- 機械学習を活用した植物画像解析
+  - マルバツユクサの気孔開度定量
+    - HOG特徴量と気孔検出
+    - scikit-imageのregionpropsを利用した気孔開度定量
+  - シンプルなCNNの事例
+  - [イネ収量予測](notebooks/rieyieldcnn.ipynb)  
+    - 学習済CNNモデルを利用したイネ収量推論
+  - [植物病害識別診断](notebooks/plantvilllage.ipynb)
+    - tensorflow.kerasを活用したCNNの学習と活用
+  - [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
+    - YOLOv8物体検出モデルの学習と推論
+  - イネの種子計数形状解析（２）
+    - Mask-RCNNを利用した種子インスタンス・セグメンテーション
+  - 雑草検出モデルの作成
+    - object detection
+    - semantic segmenatation
+    - instance segmenatation
+  - シロイヌナズナのepidermal peel気孔開度定量
+  
+  - シロイヌナズナのleaf disc気孔開度定量
+    - YOLOXによる気孔検出
+    - Segmentation Modelsによる気孔開度検出
+- おまけ？
+  - 
+  - 機械学習モデルの解釈
+  - [3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
+    - PlantSegの活用
+  - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+
+  
+
+-----
+  - Grad-CAM、guided backpropagationによる可視化
+ 
   - Segmentation
     - Weed Segmenatation (pytorch segmentationあたりを使いたい)
     - Instance Segmenatation
 - 応用編2
   - [PlantSegによる細胞壁検出と細胞インスタンス・セグメンテーション3D共焦点画像解析](notebooks/plantseg.ipynb)
-  - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+  
 
 
 - おまけ？
