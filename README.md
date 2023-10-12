@@ -1,7 +1,7 @@
 # Image-Analysis for Plant Biologists with Python
 
 ## Table of Contents
-- [はじめに](columns/introduction.md)
+- [はじめに](columns/0_introduction.md)
 
 - プログラミング基礎
   - Python（とColaboratory）の基礎
@@ -19,7 +19,7 @@
     - HOG特徴量と気孔検出
     - scikit-imageのregionpropsを利用した気孔開度定量
   - シンプルなCNNの事例
-  - [イネ収量予測](notebooks/rieyieldcnn.ipynb)  
+  - [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
     - 学習済CNNモデルを利用したイネ収量推論
   - [植物病害識別診断](notebooks/plantvilllage.ipynb)
     - tensorflow.kerasを活用したCNNの学習と活用
@@ -32,7 +32,7 @@
     - semantic segmenatation
     - instance segmenatation
   - シロイヌナズナのepidermal peel気孔開度定量
-  
+
   - シロイヌナズナのleaf disc気孔開度定量
     - YOLOXによる気孔検出
     - Segmentation Modelsによる気孔開度検出
