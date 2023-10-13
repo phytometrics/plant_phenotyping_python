@@ -9,16 +9,17 @@
 - 植物画像解析基礎
   - [ぶどう花粉活性度評価](notebooks/pollencounter.ipynb)
     - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
-  - [イネ種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb)
+  - [イネ種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb)  *後半のmaskrcnnを分離する*
     - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
-  - [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)
+  - [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)  *GWAS解析の検証とGSの追加が必要*
     - 楕円フーリエ記述子と輪郭形状解析
     - SNPを利用したPCA/GWAS/GS 解析
 - 機械学習を活用した植物画像解析
+  - シンプルなCNNの事例をなにか考える
   - マルバツユクサの気孔開度定量
-    - HOG特徴量と気孔検出
+    - HOG特徴量を利用した気孔検出
+    - CNNによる気孔開閉判定
     - scikit-imageのregionpropsを利用した気孔開度定量
-  - シンプルなCNNの事例
   - [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
     - 学習済CNNモデルを利用したイネ収量推論
   - [植物病害識別診断](notebooks/plantvilllage.ipynb)
@@ -32,16 +33,15 @@
     - semantic segmenatation
     - instance segmenatation
   - シロイヌナズナのepidermal peel気孔開度定量
-
+    - detectron2によるinstance segmenatation + keypoint detection
   - シロイヌナズナのleaf disc気孔開度定量
     - YOLOXによる気孔検出
     - Segmentation Modelsによる気孔開度検出
-- おまけ？
-  - 
   - 機械学習モデルの解釈
   - [3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
     - PlantSegの活用
   - [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+  - 葉脈解析
 
   
 
