@@ -7,22 +7,16 @@
 #### [エラーは怖くない：自分で解決できるようになろう](columns/error.md)
 #### [ファイルとフォルダの命名方法](columns/file_name.md)
 #### [Pythonの命名規則](columns/styleguide.md)
-
 #### [座標系と表記順序：xyなのかyxなのか、そして原点はどこなのか](columns/xyyxrc.md)
-
 #### [機械学習におけるデータセットのフォーマット](columns/dataset_format.md)
-
 #### [データリーク](columns/dataleak.md)
-
 #### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license.md)
 #### [「レナ」を超えて](lenna.md)
 
 ### ハンズオン
-
 #### プログラミング基礎
 - Python（とColaboratory）の基礎
 - 植物画像解析でよく使われるColaboratoryにおけるPythonコードの紹介
-#### 植物画像解析基礎
 #### [イネ種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
 #### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
@@ -30,7 +24,7 @@
 #### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)  *GWAS解析の検証とGSの追加が必要*
 - 楕円フーリエ記述子と輪郭形状解析
 - SNPを利用したPCA/GWAS/GS 解析
-#### [植物病害識別診断](notebooks/plantvilllage.ipynb)
+#### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
 - tensorflow.kerasを活用したCNNの学習と活用
 - ファインチューニング
 #### マルバツユクサの気孔開度定量
@@ -44,9 +38,10 @@
 #### イネの種子計数形状解析（２）
 - Mask-RCNNを利用した種子Intance Segmentation
 #### 雑草検出モデルの作成
-- object detection
-- semantic segmenatation
-- instance segmenatation
+- detectron2で全部やる
+  - object detection
+  - semantic segmenatation
+  - instance segmenatation
 #### [StomaAI:シロイヌナズナのepidermal peel気孔開度定量](notebooks/sai.ipynb)
 - detectron2によるinstance segmenatation + keypoint detection
 #### シロイヌナズナのleaf disc気孔開度定量
