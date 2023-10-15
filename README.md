@@ -29,15 +29,13 @@
 #### 種子計数形状解析（２）
 - Mask-RCNNを利用した種子Intance Segmentation
 - 特徴量設計を省略するとは？
-#### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
-- tensorflow.kerasを活用したCNNの学習と活用
-- ファインチューニング
-
-
-#### マルバツユクサの気孔開度定量
+#### DeepStomata: マルバツユクサの気孔開度定量
 - HOG特徴量を利用した気孔検出
 - CNNによる気孔開閉判定
 - scikit-imageのregionpropsを利用した気孔開度定量
+#### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
+- tensorflow.kerasを活用したCNNの学習と活用
+- ファインチューニング
 #### [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
 - 学習済CNNモデルを利用したイネ収量推論
 #### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
