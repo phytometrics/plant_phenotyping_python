@@ -35,8 +35,10 @@
 #### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
 - tensorflow.kerasを活用したCNNの学習と利用
 - ファインチューニング
-#### ChronoRoot:バーティカルアガープレート上のシロイヌナズナ根の計測
-- 
+#### ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測
+- semantic segmentationによる根領域の抽出
+- 時系列解析による補正
+- skeletonizationによるグラフ構造抽出
 #### [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
 - 学習済CNNモデルを利用したイネ収量推論
 #### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)

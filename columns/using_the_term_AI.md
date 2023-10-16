@@ -12,9 +12,12 @@
 *なお、本コラムはChatGPT4に補助してもらい執筆しました。AIって便利ですね。*
 
 ----
-<img src="assets/sci1.png" width=50%></img>
+<img src="assets/sci1.png" width=50%>
 
 *AIがどんなことでも実現してくれると盲信しているが、結局は予算取りの道具としてしか使えていない研究者の風刺画*。DALLE-2<sup>1</sup>で生成。
 
+<img src="assets/F8j8BnRa0AA56qm.jpg" width=50%>
+
+本稿を仕上げている間にDALLE-3がbingを通じて利用可能になりました。同様に作成した絵ですが、DALLE-2と比べ、その進化には目を見張るものがあります。
 
 1. https://openai.com/dall-e-2
