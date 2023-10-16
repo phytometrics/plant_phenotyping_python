@@ -28,33 +28,38 @@
 - SNPを利用したPCA/GWAS/GS 解析
 #### 種子計数形状解析（２）
 - Mask-RCNNを利用した種子Intance Segmentation
-- 特徴量設計を省略するとは？
-#### DeepStomata: マルバツユクサの気孔開度定量
+#### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
 - HOG特徴量を利用した気孔検出
 - CNNによる気孔開閉判定
-- scikit-imageのregionpropsを利用した気孔開度定量
+- scikit-imageのregionpropsを利用した気孔開口領域単離と定量
 #### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
-- tensorflow.kerasを活用したCNNの学習と活用
+- tensorflow.kerasを活用したCNNの学習と利用
 - ファインチューニング
+#### ChronoRoot:バーティカルアガープレート上のシロイヌナズナ根の計測
+- 
 #### [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
 - 学習済CNNモデルを利用したイネ収量推論
 #### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
 - YOLOv8物体検出モデルの学習と推論
-### 野外でのダイズ種子計数
+#### 野外でのダイズ種子計数
 - P2PNet-Soyを利用した点検出ネットワーク
-#### 雑草検出モデルの作成
+#### 雑草検出モデルの作成と利用
 - detectron2で全部やる
   - object detection
   - semantic segmenatation
   - instance segmenatation
-#### [StomaAI:シロイヌナズナのepidermal peel気孔開度定量](notebooks/sai.ipynb)
+#### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb)
 - detectron2によるinstance segmenatation + keypoint detection
-#### シロイヌナズナのleaf disc気孔開度定量
+#### シロイヌナズナのリーフディスク顕微鏡画像からの気孔開度定量
 - YOLOXによる気孔検出
 - Segmentation Modelsによる気孔開度検出
 #### 機械学習モデルの解釈
-#### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
+- PCAの合成ベクトルの意味
+- RandomForestの特徴量寄与率
+- CNN系の特徴量可視化
+  - Grad-CAM
 
+#### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 #### [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
 #### 葉脈解析
 
