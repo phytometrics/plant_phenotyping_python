@@ -11,7 +11,7 @@
 #### [機械学習におけるデータセットのフォーマット](columns/dataset_format.md)
 #### [データリーク](columns/dataleak.md)
 #### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license.md)
-#### [「レナ」を超えて](lenna.md)
+#### [「レナ」を超えて](columns/lenna.md)
 
 ### ハンズオン
 #### プログラミング基礎
