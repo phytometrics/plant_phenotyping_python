@@ -10,7 +10,7 @@
 #### [座標系と表記順序：xyなのかyxなのか、そして原点はどこなのか](columns/xyyxrc.md)
 #### [機械学習におけるデータセットのフォーマット](columns/dataset_format.md)
 #### [データリーク](columns/dataleak.md)
-#### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license.md)
+#### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 #### [「レナ」を超えて](columns/lenna.md)
 
 ### ハンズオン
@@ -55,11 +55,11 @@
 #### シロイヌナズナのリーフディスク顕微鏡画像からの気孔開度定量
 - YOLOXによる気孔検出
 - Segmentation Modelsによる気孔開度検出
-#### 機械学習モデルの解釈
+#### データ解析と機械学習モデルの解釈
 - PCAの合成ベクトルの意味
 - RandomForestの特徴量寄与率
 - CNN系の特徴量可視化
-  - Grad-CAM
+  - Grad-CAMなど
 
 #### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 #### [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
