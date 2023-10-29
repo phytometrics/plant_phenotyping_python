@@ -23,6 +23,9 @@
 - ImageJマクロをPythonで書き直す
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
+### ドローン画像からの草本バイオマス定量
+- RGBとDepth情報を用いた領域抽出
+- オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 #### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)  *GWAS解析の検証とGSの追加が必要*
 - 楕円フーリエ記述子と輪郭形状解析
 - SNPを利用したPCA/GWAS/GS 解析
