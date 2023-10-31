@@ -103,8 +103,7 @@ result = label(image)
 
 ```shell
 TypeError: 'str' object is not callable
-# callとはlabel()のような使い方を指し、
-# skimageのlabel関数ではなく、label文字列"some text"に対して使用しようとしているのでnot callableのエラーとなる。
+# skimageのlabel機能ではなく、文字列として上書きしてしまっているために生じたエラー。
 ```
 
 ## エラーってどうやって読むの？
