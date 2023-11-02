@@ -20,8 +20,7 @@
 #### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
 #### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
-- ImageJマクロをPythonで書き直す
-- scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
+- ImageJマクロをPythonで再実装する
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
 #### [WEIPS：ドローン画像からの雑草除去およびヤクイモ定量](notebooks/WEIPS.ipynb)
 - RGBとDepth情報を用いた領域抽出
