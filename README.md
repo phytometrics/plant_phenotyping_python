@@ -23,7 +23,7 @@
 - ImageJマクロをPythonで書き直す
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
-#### [WEIPS：ドローン画像からの雑草除去およびヤクイモ定量](notebooks/WEIPS.ipynb)  *データセットのurl変更が必要*
+#### [WEIPS：ドローン画像からの雑草除去およびヤクイモ定量](notebooks/WEIPS.ipynb)
 - RGBとDepth情報を用いた領域抽出
 - オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 #### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)  *GWAS解析の検証とGSの追加が必要*
