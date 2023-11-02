@@ -21,7 +21,7 @@
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
 #### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
 - ImageJマクロをPythonで再実装する
-- scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
+- scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
 #### [WEIPS：ドローン画像からの雑草除去およびヤクイモ定量](notebooks/WEIPS.ipynb)
 - RGBとDepth情報を用いた領域抽出
 - オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
