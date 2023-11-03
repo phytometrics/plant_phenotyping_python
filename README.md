@@ -6,7 +6,7 @@
 ### [エラーは怖くない：自分で解決できるようになろう](columns/error.md)
 ### [ファイルとフォルダの命名方法](columns/file_name.md)
 ### [Pythonの命名規則](columns/styleguide.md)
-### [座標系と表記順序：xyなのかyxなのか、そして原点はどこなのか](columns/xyyxrc.md)
+### [座標系と表記順序：xyなのかyxなのか、nhwcなのかnchwなのか。](columns/xyyxrc.md)
 ### [機械学習におけるデータセットのフォーマット](columns/dataset_format.md)
 ### [データリーク](columns/dataleak.md)
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
@@ -16,7 +16,7 @@
 ## Colaboratoryハンズオン
 ### 植物画像解析基礎
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
-- pandasやplotlyを用いたデータ分析と可視化
+- pandasやplotlyを用いた表データ操作・分析・可視化
 ### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
 - scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
 ### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
@@ -67,8 +67,12 @@
 ### [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
 ### 葉脈解析
 
+
+## 謝辞
+
+
   
-- おまけ？
+おまけ？
   - Segment Anything
   - Grounding DINO
 
