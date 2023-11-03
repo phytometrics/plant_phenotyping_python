@@ -85,3 +85,7 @@
   - .pyファイル
   - ウェブ形式
     - streamlit, gradio ....
+
+
+  - https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html
+  -https://github.com/pywood21/holz_202209
