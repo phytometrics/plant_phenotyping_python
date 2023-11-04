@@ -26,3 +26,7 @@
 
 #  気をつけること
 - GPLv3は使用しても問題ない。商用利用不可に関してはデータセット、レポジトリなどの使用は極力避ける。確認のため、使用レポやデータに関してはライセンス明記する。ex. [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
+
+
+github repoの画像のリンクの例
+https://github.com/phytometrics/plant_phenotyping_python/blob/main/notebooks/imgs/weips_fig1.png?raw=1
