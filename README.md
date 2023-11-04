@@ -14,7 +14,8 @@
 ### [「レナ」を超えて](columns/lenna.md)
 
 ## Colaboratoryハンズオン
-### 植物画像解析基礎
+### [Python基礎](notebooks/basics.ipynb)
+### 画像解析基礎
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 - pandasやplotlyを用いた表データ操作・分析・可視化
 ### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
@@ -45,8 +46,6 @@
 - 学習済CNNモデルを利用したイネ収量推論
 ### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
 - YOLOv8物体検出モデルの学習と推論
-### 野外でのダイズ種子計数
-- P2PNet-Soyを利用した点検出ネットワーク
 ### 雑草検出モデルの作成と利用
 - detectron2で全部やる
   - object detection
@@ -73,6 +72,9 @@
 - sam
 - grounding dino
 etc.
+
+#### 野外でのダイズ種子計数
+- P2PNet-Soyを利用した点検出ネットワーク
 
 #### ブロッコリー生育予測
 - Drone-Based Harvest Data Prediction Can Reduce On-Farm Food Loss and Improve Farmer Income
