@@ -14,8 +14,8 @@
 ### [「レナ」を超えて](columns/lenna.md)
 
 ## Colaboratoryハンズオン
-### [Python基礎](notebooks/basics.ipynb)
-### 画像解析基礎
+### [Python基礎](notebooks/python_basics.ipynb)
+### [画像解析基礎](notebooks/image_analysis_basics.ipynb)
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 - pandasやplotlyを用いた表データ操作・分析・可視化
 ### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
