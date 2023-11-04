@@ -18,11 +18,12 @@
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 - pandasやplotlyを用いた表データ操作・分析・可視化
 ### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
-- scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数と形状解析
+- scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 ### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
-- ImageJマクロをPythonで再実装する
-- scikit-imageのregionpropsとWatershedを利用したオブジェクトの計数
+- ImageJマクロのPython再実装
+- scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数
 ### [WEIPS：ドローン画像からの雑草除去およびヤクイモ表現型定量](notebooks/WEIPS.ipynb)
+- MATLABコードのPython再実装
 - RGBとDepth情報を用いた領域抽出
 - オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 ### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)  *GWAS解析の検証とGSの追加が必要*
@@ -35,11 +36,10 @@
 - CNNによる気孔開閉判定
 - scikit-imageのregionpropsを利用した気孔開口領域単離と定量
 ### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
-- tensorflow.kerasを活用したCNNの学習と利用
-- ファインチューニング
+- tensorflow.kerasを活用したCNNモデルの構築と訓練
 ### ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測
 - semantic segmentationによる根領域の抽出
-- 時系列解析による補正
+- 時系列補正
 - skeletonizationによるグラフ構造抽出
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
 - 学習済CNNモデルを利用したイネ収量推論
@@ -65,8 +65,37 @@
 
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 ### [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
-### 葉脈解析
 
+
+### 実装したい
+
+#### foundation model
+- sam
+- grounding dino
+etc.
+
+#### ブロッコリー生育予測
+- Drone-Based Harvest Data Prediction Can Reduce On-Farm Food Loss and Improve Farmer Income
+  - cc-by
+  - https://spj.science.org/doi/10.34133/plantphenomics.0086
+- https://github.com/UTokyo-FieldPhenomics-Lab/UAVbroccoli
+  - MIT。ただしyolov5はGPLv3
+#### 葉脈解析
+- Network feature-based phenotyping of leaf venation robustly reconstructs the latent space
+  - https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010581
+  - cc-by
+- https://zenodo.org/records/8020856
+  - 
+- https://github.com/MorphometricsGroup/iwamasa-2022
+  - mit
+#### Aravib: 
+- High-Throughput Analysis of Arabidopsis Stem Vibrations to Identify Mutants With Altered Mechanical Properties
+  - https://www.frontiersin.org/articles/10.3389/fpls.2018.00780/full
+#### Cell segmentation and tracking from time-series sequential images
+- Flexural behavior of wood in the transverse direction investigated using novel computer vision and machine learning approach
+  - https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html
+  - cc-by
+- https://github.com/pywood21/holz_202209
 
 ## 謝辞
 
