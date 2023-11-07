@@ -43,7 +43,7 @@ for file in files:
     date, genotype, replicate = name.split("_")  
     ...
 ```
-下記のようなメタデータの管理表を簡単につくることができます。
+下記のような管理表を簡単につくることができます。
 
 |file name| date| genotype | replicate|
 | ---- | ---- |---- | ---- |

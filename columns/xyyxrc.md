@@ -2,7 +2,7 @@
 
 異なるライブラリを使って画像を操作する際、座標系とその表記の違いに遭遇することがよくあります。例えば、Numpy, OpenCV, scikit-image, Matplotlibなど、各ライブラリは独自の座標系やインデックス順序を採用しています。これらの違いを理解し、適切に扱うことは、画像処理タスクを効率的に遂行するために不可欠です。
 
-特に機械学習のモデルを作成する場合、特段の理由が無い限り多くの方は正方形を入力形式とするでしょう。その場合縦横の順序が違っていてもエラーがなく動いてしまうので、「訓練できたけれど、使い物にならないモデル」に苦しむことになります。
+特に機械学習のモデルを作成する場合、特段の理由が無い限り多くの方は正方形を入力形式とするでしょう。その場合縦横の順序が違っていてもエラーがなく動いてしまうので、「訓練できるけれど、なぜか使い物にならないモデル」に苦しむことになります。
 
 間違えないためには公式のドキュメントを参照し、関数やクラスの使い方を把握することが重要です。代表的なものについて本稿で紹介します。
 
@@ -82,12 +82,12 @@ plt.plot(y, x)
 
 
 # Deep Learningフレームワーク
-深層学習のフレームワークにおいて、RGB画像をNHWCやNCHW形式で扱うとの表現があります。
+深層学習のフレームワークにおいて、画像をNHWCやNCHW形式で扱うとの表現があります。
 
-- N: Number of Samples。 バッチ数、つまり何個の画像をいっぺんに扱うかを意味します。単一画像の場合は1となります。
-- H: Height。Numpyにおけるyと同義です。
-- W: Width。Numpyにおけるxと同義です。
-- C: Channel。Numpyにおけるchannelと同義です。RGB画像の場合3となります。
+- N: Number of Samples。 バッチ数、つまり何個の画像をまとめて取り扱うかを意味します。単一画像の場合は1となります。
+- H: Height。Numpyにおけるy次元と同義です。
+- W: Width。Numpyにおけるx次元と同義です。
+- C: Channel。Numpyにおけるchannel次元と同義です。RGB（BGR）画像の場合3となります。
 
 どのようなフォーマットで画像データを扱うかはライブラリによって異なります。以下は近年よく使われるフレームワークの要求フォーマットを表にまとめたものです。
 
@@ -127,5 +127,4 @@ print(x_nchw.shape)  # Output: (10, 3, 128, 128)
 
 <img src=https://cdn.jsdelivr.net/gh/phytometrics/plant_phenotyping_python@main/assets/69d1a3f36713caefbe55702e304a27d7afa09254ceec62a7b35e7b2a56bf793d.png width=25%>
 
-打ち上げ花火を横から見るpython。dreamstudio (Stability AI)<sup>1</sup>を用いて生成しました。
-1. https://dreamstudio.ai/generate
+打ち上げ花火を横から見るpython。dreamstudio (Stability AI, https://dreamstudio.ai/generate) を用いて生成しました。
