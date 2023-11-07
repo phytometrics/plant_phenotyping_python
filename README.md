@@ -41,14 +41,14 @@
 - scikit-imageのregionpropsを利用した気孔開口領域単離と定量
 ### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
-### [ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測](notebooks/chronoroot.ipynb)　（未完）
-- semantic segmentationによる根領域の抽出
-- 時系列補正
-- skeletonizationによるグラフ構造抽出
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
 - 学習済CNNモデルを利用したイネ収量推論
 ### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
 - YOLOv8物体検出モデルの学習と推論
+### [ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測](notebooks/chronoroot.ipynb)　（未完）
+- semantic segmentationによる根領域の抽出
+- 時系列補正
+- skeletonizationによるグラフ構造抽出
 ### 雑草検出モデルの作成と利用
 - detectron2で全部やる
   - object detection
