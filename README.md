@@ -27,9 +27,12 @@
 - MATLABコードのPython再実装
 - RGBとDepth情報を用いた領域抽出
 - オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
-### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb)  *GWAS解析の検証とGSの追加が必要*
+### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb) （未完）
 - 楕円フーリエ記述子と輪郭形状解析
 - SNPを利用したPCA/GWAS/GS 解析
+### [Aravib: シロイヌナズナの茎振動の定量](notebooks/aravib.ipynb) （未完）
+- Color Thresholdによる特徴点抽出とトラッキング
+- scipyのfftを活用した振動解析
 ### 種子計数形状解析（２）
 - Mask-RCNNを利用した種子Intance Segmentation
 ### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
@@ -38,7 +41,7 @@
 - scikit-imageのregionpropsを利用した気孔開口領域単離と定量
 ### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
-### ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測
+### [ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測](notebooks/chronoroot.ipynb)　（未完）
 - semantic segmentationによる根領域の抽出
 - 時系列補正
 - skeletonizationによるグラフ構造抽出
@@ -90,9 +93,6 @@ etc.
   - 
 - https://github.com/MorphometricsGroup/iwamasa-2022
   - mit
-#### Aravib: 
-- High-Throughput Analysis of Arabidopsis Stem Vibrations to Identify Mutants With Altered Mechanical Properties
-  - https://www.frontiersin.org/articles/10.3389/fpls.2018.00780/full
 #### Cell segmentation and tracking from time-series sequential images
 - Flexural behavior of wood in the transverse direction investigated using novel computer vision and machine learning approach
   - https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html
