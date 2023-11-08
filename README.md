@@ -1,4 +1,4 @@
-# Image-Analysis for Plant Biologists with Python
+# Plant Phenotyping for Biologists with Python
 
 ## [はじめに](columns/introduction.md)
 ## コラム
