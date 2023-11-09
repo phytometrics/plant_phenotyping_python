@@ -13,11 +13,20 @@
 ### [あなたの「説明可能なAI」研究は、本当に説明可能ですか？](columns/explainable_ai.md)
 ### [「レナ」を超えて](columns/lenna.md)
 
-## Colaboratoryハンズオン
-### [Python基礎](notebooks/python_basics.ipynb)
+## ウォーミングアップ
+### [Python言語基礎](notebooks/python_basics.ipynb)
 ### [画像解析基礎](notebooks/image_analysis_basics.ipynb)
+- opencvを用いた画像操作
+- scikit-imageのlabel, regionpropsを用いたオブジェクト検出
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 - pandasやplotlyを用いた表データ操作・分析・可視化
+### 整粒米判別による植物フェノタイピングアプローチの理解
+- 手動特徴量設計、SVM、CNN。
+- 適切な解析アプローチの選定。
+### 時系列データ解析
+
+
+## パート１
 ### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 ### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
@@ -33,18 +42,22 @@
 ### [Aravib: シロイヌナズナの茎振動の定量](notebooks/aravib.ipynb) （未完）
 - Color Thresholdによる特徴点抽出とトラッキング
 - scipyのfftを活用した振動解析
+## パート２：深層学習モデルの訓練
+### [植物病害識別診断モデルの作成](notebooks/plantvilllage.ipynb)
+- tensorflow.kerasを活用したCNNモデルの構築と訓練
+### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
+- Global Wheat Head Dataset 2021の活用
+- YOLOv8物体検出モデルの学習と推論
+
+## パート３
 ### 種子計数形状解析（２）
 - Mask-RCNNを利用した種子Intance Segmentation
 ### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
 - HOG特徴量を利用した気孔検出
 - CNNによる気孔開閉判定
 - scikit-imageのregionpropsを利用した気孔開口領域単離と定量
-### [植物病害識別診断モデルの訓練と通じたImage Classification型CNNの理解](notebooks/plantvilllage.ipynb)
-- tensorflow.kerasを活用したCNNモデルの構築と訓練
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
 - 学習済CNNモデルを利用したイネ収量推論
-### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
-- YOLOv8物体検出モデルの学習と推論
 ### [ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測](notebooks/chronoroot.ipynb)　（未完）
 - semantic segmentationによる根領域の抽出
 - 時系列補正
