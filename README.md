@@ -12,21 +12,23 @@
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 ### [あなたの「説明可能なAI」研究は、本当に説明可能ですか？](columns/explainable_ai.md)
 ### [「レナ」を超えて](columns/lenna.md)
+### ChatGPTによるプログラミング補助、あるいは丸投げ？
 
-## ウォーミングアップ
+## Part 0: Warming Up
 ### [Python言語基礎](notebooks/python_basics.ipynb)
 ### [画像解析基礎](notebooks/image_analysis_basics.ipynb)
 - opencvを用いた画像操作
 - scikit-imageのlabel, regionpropsを用いたオブジェクト検出
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 - pandasやplotlyを用いた表データ操作・分析・可視化
-### 整粒米判別による植物フェノタイピングアプローチの理解
+### 整粒米判別を通じた画像解析の手法間比較
 - 手動特徴量設計、SVM、CNN。
 - 適切な解析アプローチの選定。
 ### 時系列データ解析
+- 未定
 
 
-## パート１
+## Part 1: Conventional Image Analysis Methods
 ### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb) 
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 ### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
@@ -39,17 +41,27 @@
 ### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb) （未完）
 - 楕円フーリエ記述子と輪郭形状解析
 - SNPを利用したPCA/GWAS/GS 解析
-### [Aravib: シロイヌナズナの茎振動の定量](notebooks/aravib.ipynb) （未完）
+### [Aravib: シロイヌナズナの茎振動の定量](notebooks/aravib.ipynb)
 - Color Thresholdによる特徴点抽出とトラッキング
 - scipyのfftを活用した振動解析
-## パート２：深層学習モデルの訓練
+
+## Part 2: Training Deep Learning Models
 ### [植物病害識別診断モデルの作成](notebooks/plantvilllage.ipynb)
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
 ### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
 - Global Wheat Head Dataset 2021の活用
 - YOLOv8物体検出モデルの学習と推論
+### 雑草検出モデルの作成と利用
+- detectron2ライブラリのフル活用
+  - object detection
+  - semantic segmenatation
+  - instance segmenatation
+### 野外でのダイズ種子計数モデルの訓練
+  - P2PNet-Soyの訓練 
+### 深層学習モデルの特徴量解釈
+- CNN系の特徴量可視化(Grad-CAMなど)
 
-## パート３
+## Part 3: Utilizing Deep Learning Models
 ### 種子計数形状解析（２）
 - Mask-RCNNを利用した種子Intance Segmentation
 ### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
@@ -58,54 +70,25 @@
 - scikit-imageのregionpropsを利用した気孔開口領域単離と定量
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)  
 - 学習済CNNモデルを利用したイネ収量推論
-### [ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測](notebooks/chronoroot.ipynb)　（未完）
+### [ChronoRoot:アガープレート生育のシロイヌナズナ根計測](notebooks/chronoroot.ipynb)　（未完）
 - semantic segmentationによる根領域の抽出
 - 時系列補正
 - skeletonizationによるグラフ構造抽出
 ### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb)
 - detectron2によるinstance segmenatation + keypoint detection
-
-### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
-### [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
-
-
-## やる
-### ChronoRoot:バーティカルプレート上で生育させたシロイヌナズナ根の計測
-- semantic segmentationによる根領域の抽出
-- 時系列補正
-- skeletonizationによるグラフ構造抽出
-### シロイヌナズナのリーフディスク顕微鏡画像からの気孔開度定量
+### シロイヌナズナのリーフディスク顕微鏡画像を利用した気孔開度定量
 - YOLOXによる気孔検出
 - Segmentation Modelsによる気孔開度検出
-### 雑草検出モデルの作成と利用
-- detectron2で全部やる
-  - object detection
-  - semantic segmenatation
-  - instance segmenatation
-### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb)
-- detectron2によるinstance segmenatation + keypoint detection
-### シロイヌナズナのリーフディスク顕微鏡画像からの気孔開度定量
-- YOLOXによる気孔検出
-- Segmentation Modelsによる気孔開度検出
-### データ解析と機械学習モデルの解釈
-- PCAの合成ベクトルの意味
-- RandomForestの特徴量寄与率
-- CNN系の特徴量可視化
-  - Grad-CAMなど
 
+## Part 4: Miscellanenous
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 ### [U<sup>2</sup>-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
+### Grounding DINO
+### Segment Anything
 
 
-### 実装したい
 
-#### foundation model
-- sam
-- grounding dino
-etc.
-
-#### 野外でのダイズ種子計数
-- P2PNet-Soyを利用した点検出ネットワーク
+## 他実装検討中
 
 #### ブロッコリー生育予測
 - Drone-Based Harvest Data Prediction Can Reduce On-Farm Food Loss and Improve Farmer Income
