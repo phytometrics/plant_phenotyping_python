@@ -28,6 +28,8 @@
 
 ### [Python言語基礎](notebooks/python_basics.ipynb)
 
+- 削除予定
+
 ### [画像解析基礎](notebooks/image_analysis_basics.ipynb)
 
 - opencvを用いた画像操作
@@ -70,10 +72,10 @@
 
 ## Part 1.5: Comparing Image Aanlysis Methods
 
-### 整粒米判別を通じた画像解析の手法間比較
+### ~~整粒米判別を通じた画像解析の手法間比較~~
 
-- 手動特徴量設計、SVM、CNN。
-- 適切な解析アプローチの選定。
+- ~~手動特徴量設計、SVM、CNN。~~
+- ~~適切な解析アプローチの選定。~~
 
 ### 種子計数形状解析（２）
 
