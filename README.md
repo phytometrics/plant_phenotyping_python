@@ -28,6 +28,8 @@
 
 ### [Python言語基礎](notebooks/python_basics.ipynb)
 
+- 削除予定
+
 ### [画像解析基礎](notebooks/image_analysis_basics.ipynb)
 
 - opencvを用いた画像操作
@@ -52,7 +54,7 @@
 - ImageJマクロのPython再実装
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数
 
-### [WEIPS：ドローン画像からの雑草除去およびヤクイモ表現型定量](notebooks/WEIPS.ipynb)
+### [WEIPS：ドローン画像からの雑草除去およびキクイモ表現型定量](notebooks/WEIPS.ipynb)
 
 - MATLABコードのPython再実装
 - RGBとDepth情報を用いた領域抽出
@@ -70,10 +72,10 @@
 
 ## Part 1.5: Comparing Image Aanlysis Methods
 
-### 整粒米判別を通じた画像解析の手法間比較
+### ~~整粒米判別を通じた画像解析の手法間比較~~
 
-- 手動特徴量設計、SVM、CNN。
-- 適切な解析アプローチの選定。
+- ~~手動特徴量設計、SVM、CNN。~~
+- ~~適切な解析アプローチの選定。~~
 
 ### 種子計数形状解析（２）
 
@@ -84,6 +86,11 @@
 ### [植物病害識別診断モデルの作成](notebooks/plantvilllage.ipynb)
 
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
+
+### 大麦種子識別モデルの作成
+
+- Image Augmentationによるデータ不足の対応
+- 転移学習
 
 ### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
 
@@ -137,14 +144,13 @@
 
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 
-### [U`<sup>`2`</sup>`-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
+### [U `<sup>`2 `</sup>`-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
 
 ### Grounding DINO
 
 ### Segment Anything
 
 https://github.com/yformer/EfficientSAM
-
 
 ## Part 5: Plant Phenotyping WebUI Examples
 
