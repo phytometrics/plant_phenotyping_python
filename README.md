@@ -26,20 +26,24 @@
 
 ## Part 0: Warm Up
 
-### [Python言語基礎](notebooks/python_basics.ipynb)
+### ~~Python言語基礎~~
 
-- 削除予定
+- ~~削除予定~~
 
-### [画像解析基礎](notebooks/image_analysis_basics.ipynb)
+### [~~画像解析基礎~~](notebooks/image_analysis_basics.ipynb)
 
-- opencvを用いた画像操作
-- scikit-imageのlabel, regionpropsを用いたオブジェクト検出
+- ~~opencvを用いた画像操作~~
+- ~~scikit-imageのlabel, regionpropsを用いたオブジェクト検出
+
+### 画像解析による割れ米判定アルゴリズムの作成
+
+- 画像解析基礎
 
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 
 - pandasやplotlyを用いた表データ操作・分析・可視化
 
-### 時系列データ解析
+### 時系列データ解析基礎
 
 - 未定
 
