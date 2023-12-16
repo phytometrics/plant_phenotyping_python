@@ -54,7 +54,7 @@
 - ImageJマクロのPython再実装
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数
 
-### [WEIPS：ドローン画像からの雑草除去およびヤクイモ表現型定量](notebooks/WEIPS.ipynb)
+### [WEIPS：ドローン画像からの雑草除去およびキクイモ表現型定量](notebooks/WEIPS.ipynb)
 
 - MATLABコードのPython再実装
 - RGBとDepth情報を用いた領域抽出
