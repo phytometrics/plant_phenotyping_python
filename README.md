@@ -26,28 +26,18 @@
 
 ## Part 0: Warm Up
 
-### ~~Python言語基礎~~
-
-- ~~削除予定~~
-
-### [~~画像解析基礎~~](notebooks/image_analysis_basics.ipynb)
-
-- ~~opencvを用いた画像操作~~
-- ~~scikit-imageのlabel, regionpropsを用いたオブジェクト検出
-
-### 画像解析による割れ米判定アルゴリズムの作成
+### [割米判定アルゴリズムの作成を通じた画像解析基礎](notebooks/rice_proper_broken.ipynb)
 
 - 画像解析基礎
+- 最適な閾値のマニュアル定義
+
+### 時系列データ解析
 
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 
 - pandasやplotlyを用いた表データ操作・分析・可視化
 
-### 時系列データ解析基礎
-
-- 未定
-
-## Part 1: Conventional Image Analysis Methods
+## Part 1: Conventional Image Analysis Aproach for Plant Phenotyping
 
 ### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb)
 
@@ -74,27 +64,19 @@
 - Color Thresholdによる特徴点抽出とトラッキング
 - scipyのfftを活用した振動解析
 
-## Part 1.5: Comparing Image Aanlysis Methods
-
-### ~~整粒米判別を通じた画像解析の手法間比較~~
-
-- ~~手動特徴量設計、SVM、CNN。~~
-- ~~適切な解析アプローチの選定。~~
-
-### 種子計数形状解析（２）
-
-- Mask-RCNNを利用した種子Intance Segmentation
-
-## Part 2: Training Deep Learning Models
+## Part 2: Training Deep Learning Models for Plant Phenotyping
 
 ### [植物病害識別診断モデルの作成](notebooks/plantvilllage.ipynb)
 
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
 
-### 大麦種子識別モデルの作成
+### [大麦種子識別モデルの作成](notebooks/barley_seed_classification.ipynb)
 
-- Image Augmentationによるデータ不足の対応
-- 転移学習
+- tensorflow.kerasを活用したCNNモデルの構築と訓練
+- 現場データ収集における問題（データ不足、データ不均衡）に対応する
+  - class weight
+  - 転移学習
+  - データ拡張
 
 ### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
 
@@ -117,7 +99,11 @@
 
 - CNN系の特徴量可視化(Grad-CAMなど)
 
-## Part 3: Utilizing Deep Learning Models
+## Part 3: Utilizing Trained Deep Learning Models for Plant Phenotying
+
+### 種子計数形状解析（２）
+
+- Mask-RCNNを利用した種子Intance Segmentation
 
 ### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
 
@@ -144,23 +130,19 @@
 - YOLOXによる気孔検出
 - Segmentation Modelsによる気孔開度検出
 
-## Part 4: Miscellanenous
-
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 
-### [U `<sup>`2 `</sup>`-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
+### [U2-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
+
+## Part X: Foundation Models for Plant Phenotyping
 
 ### Grounding DINO
 
 ### Segment Anything
 
-https://github.com/yformer/EfficientSAM
+- https://github.com/yformer/EfficientSAM
 
-## Part 5: Plant Phenotyping WebUI Examples
-
-### [ももいろハート画像診断](https://suntoryflowers.blog.suntory.co.jp/009847.html)
-
-### [iSeedv2:作物種子粒数計測](https://iseedv2-m5otxvfxodoo6srwbpqf2j.streamlit.app/)
+### Vision Task対応LLM
 
 ## 他、実装検討中
 
