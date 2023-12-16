@@ -78,22 +78,26 @@
   - 転移学習
   - データ拡張
 
-### [ドローン画像からの小麦穂検出モデル作成](notebooks/globalwheat2021.ipynb)
+### 作物・雑草セグメンテーションモデルの作成
+
+- phenobenchデータセットの活用
+- segmentation_models_pytorchを用いたセグメンテーションモデルの作成
+  - Binary Semantic Segmenatation
+  - Three Class Semantic Segmentation
+
+### [小麦穂検出モデルの作成](notebooks/globalwheat2021.ipynb)
 
 - Global Wheat Head Dataset 2021の活用
 - YOLOv8物体検出モデルの学習と推論
 
-### 雑草検出モデルの作成と利用
+### "多様な"作物検出モデルの作成
 
-- detectron2ライブラリのフル活用
+- GrowliFlowerデータセットの活用？
+- detectron2ライブラリの活用
 
   - object detection
   - semantic segmenatation
   - instance segmenatation
-
-### 野外でのダイズ種子計数モデルの訓練
-
-- P2PNet-Soyの訓練
 
 ### 深層学習モデルの特徴量解釈
 
