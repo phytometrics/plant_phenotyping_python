@@ -68,6 +68,7 @@
 
 ### [植物病害識別診断モデルの作成](notebooks/plantvilllage.ipynb)
 
+- plantvillageデータセットの活用
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
 
 ### [大麦種子識別モデルの作成](notebooks/barley_seed_classification.ipynb)
@@ -78,21 +79,25 @@
   - 転移学習
   - データ拡張
 
-### 作物・雑草セグメンテーションモデルの作成
+### ドローン画像からのテンサイ個体認識と病気重症度定量
+
+- https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac054/6610009
+
+### [作物・雑草セグメンテーションモデルの作成](notebooks/phenobench.ipynb)
 
 - phenobenchデータセットの活用
 - segmentation_models_pytorchを用いたセグメンテーションモデルの作成
   - Binary Semantic Segmenatation
-  - Three Class Semantic Segmentation
+  - MultiClass Semantic Segmentation
 
 ### [小麦穂検出モデルの作成](notebooks/globalwheat2021.ipynb)
 
 - Global Wheat Head Dataset 2021の活用
 - YOLOv8物体検出モデルの学習と推論
 
-### "多様な"作物検出モデルの作成
+### 統合型作物検出・セグメンテーションモデルの開発
 
-- GrowliFlowerデータセットの活用？
+- GrowliFlowerデータセットの活用
 - detectron2ライブラリの活用
 
   - object detection
