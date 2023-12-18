@@ -161,7 +161,7 @@
   - cc-by
   - [https://spj.science.org/doi/10.34133/plantphenomics.0086](https://spj.science.org/doi/10.34133/plantphenomics.0086)
 - [https://github.com/UTokyo-FieldPhenomics-Lab/UAVbroccoli](https://github.com/UTokyo-FieldPhenomics-Lab/UAVbroccoli)
-  - MIT。ただしyolov5はGPLv3
+  - MIT。ただしyolov5はGPLv3　-> 今年agplになった。
 
 #### 葉脈解析
 
