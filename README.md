@@ -2,7 +2,7 @@
 
 ## [はじめに](columns/introduction.md)
 
-## コラム
+## Column
 
 ### [なんでもかんでもAIっていうんじゃない](columns/using_the_term_AI.md)
 
@@ -24,14 +24,18 @@
 
 ### [「レナ」を超えて](columns/lenna.md)
 
-## Part 0: Warm Up
+## Part 0: Image Analysis Basics for Plant Phenotyping
 
-### [割米判定アルゴリズムの作成を通じた画像解析基礎](notebooks/rice_proper_broken.ipynb)
+### [割米判定アルゴリズムの作成](notebooks/rice_proper_broken.ipynb)
 
-- 画像解析基礎
-- 最適な閾値のマニュアル定義
+* 画像解析基礎とコメ面積定量
+* 最適な閾値の定義
 
-### 時系列データ解析基礎
+### [シロイヌナズナの葉面積定量と生育モデル作成](notebooks/time_series_growth.ipynb)
+
+- HSV閾値による葉面積定量
+- 時系列データの作図
+- 生育モデルの作成
 
 ### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
 
@@ -54,6 +58,12 @@
 - RGBとDepth情報を用いた領域抽出
 - オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 
+### ドローン画像からのテンサイ個体認識と病気重症度定量
+
+- Vegetation Indicesを使った作物領域のセグメンテーション
+- 
+- https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac054/6610009
+
 ### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb) （未完）
 
 - 楕円フーリエ記述子と輪郭形状解析
@@ -71,7 +81,7 @@
 - plantvillageデータセットの活用
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
 
-### [大麦種子識別モデルの作成](notebooks/barley_seed_classification.ipynb)
+### [大麦種子品種識別モデルの作成](notebooks/barley_seed_classification.ipynb)
 
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
 - 現場データ収集における問題（データ不足、データ不均衡）に対応する
@@ -79,14 +89,10 @@
   - 転移学習
   - データ拡張
 
-### ドローン画像からのテンサイ個体認識と病気重症度定量
-
-- https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac054/6610009
-
-### [作物・雑草セグメンテーションモデルの作成](notebooks/phenobench.ipynb)
+### [テンサイ・雑草セグメンテーションモデルの作成](notebooks/phenobench.ipynb)
 
 - phenobenchデータセットの活用
-- segmentation_models_pytorchを用いたセグメンテーションモデルの作成
+- segmentation_models_pytorchを用いた領域分割モデルの作成
   - Binary Semantic Segmenatation
   - MultiClass Semantic Segmentation
 
@@ -95,14 +101,11 @@
 - Global Wheat Head Dataset 2021の活用
 - YOLOv8物体検出モデルの学習と推論
 
-### 統合型作物検出・セグメンテーションモデルの開発
+### [カリフラワーインスタンスセグメンテーションモデルの開発](notebooks/growliflower.ipynb)
 
 - GrowliFlowerデータセットの活用
 - detectron2ライブラリの活用
-
-  - object detection
-  - semantic segmenatation
-  - instance segmenatation
+- 注意：データセット非商用ライセンス。本への収録は未定。
 
 ### 深層学習モデルの特徴量解釈
 
