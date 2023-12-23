@@ -37,7 +37,7 @@
 - 時系列データの作図
 - 生育モデルの作成
 
-### [グリーンハウスの環境データ分析](notebooks/env_data_analysis.ipynb)
+### [キュウリの茎径と環境データ分析](notebooks/env_data_analysis.ipynb)
 
 - pandasやplotlyを用いた表データ操作・分析・可視化
 
@@ -58,7 +58,7 @@
 - RGBとDepth情報を用いた領域抽出
 - オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 
-### ドローン画像からのテンサイ個体認識
+### ドローン画像からのテンサイ個体認識（未完)
 
 - Vegetation Indicesを使った作物領域のセグメンテーション
 - 
@@ -101,7 +101,7 @@
 - Global Wheat Head Dataset 2021の活用
 - YOLOv8物体検出モデルの学習と推論
 
-### [カリフラワーインスタンスセグメンテーションモデルの開発](notebooks/growliflower.ipynb)
+### [カリフラワーインスタンスセグメンテーションモデルの作成](notebooks/growliflower.ipynb)
 
 - GrowliFlowerデータセットの活用
 - detectron2ライブラリの活用
