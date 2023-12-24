@@ -1,5 +1,9 @@
 # Plant Phenotyping for Biologists with Python
 
+Python言語で学ぶ植物フェノタイピング技術（生物学者向け）
+
+![title_image](assets/_30b8ab64-b43d-455a-8a6f-ee7b8263def7.jpeg)
+
 ## [はじめに](columns/introduction.md)
 
 ## Column
