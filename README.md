@@ -43,7 +43,7 @@
 
 ## Part 1: Conventional Image Analysis Aproach for Plant Phenotyping
 
-### [種子計数形状解析（１）](notebooks/rice_seed_shape_analysis.ipynb)
+### [イネ種子計数・形状解析](notebooks/rice_seed_shape_analysis.ipynb)
 
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 
@@ -58,11 +58,10 @@
 - RGBとDepth情報を用いた領域抽出
 - オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 
-### ドローン画像からのテンサイ個体認識（未完)
+### [ドローン画像からのテンサイ個体認識](notebooks/plant_cataloging.ipynb)（未完)
 
 - Vegetation Indicesを使った作物領域のセグメンテーション
-- 
-- https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giac054/6610009
+- 時系列間での作物の位置合わせ
 
 ### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb) （未完）
 
@@ -85,7 +84,7 @@
 
 - tensorflow.kerasを活用したCNNモデルの構築と訓練
 - 現場データ収集における問題（データ不足、データ不均衡）に対応する
-  - class weight
+  - class weights
   - 転移学習
   - データ拡張
 
@@ -115,7 +114,7 @@
 
 ### 種子計数形状解析（２）
 
-- Mask-RCNNを利用した種子Intance Segmentation
+- Mask-RCNNを利用したオオムギ種子Intance Segmentation
 
 ### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
 
