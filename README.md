@@ -1,6 +1,6 @@
 # Plant Phenotyping for Biologists with Python
 
-Python言語で学ぶ植物フェノタイピング技術（生物学者向け）
+Python言語で学ぶ植物画像解析（生物学者向け）
 
 ![title_image](assets/_30b8ab64-b43d-455a-8a6f-ee7b8263def7.jpeg)
 
@@ -116,7 +116,7 @@ Python言語で学ぶ植物フェノタイピング技術（生物学者向け�
 
 ## Part 3: Utilizing Trained Deep Learning Models for Plant Phenotying
 
-### 種子計数形状解析（２）
+[大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)
 
 - Mask-RCNNを利用したオオムギ種子Intance Segmentation
 
