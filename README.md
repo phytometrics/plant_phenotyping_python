@@ -92,7 +92,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
   - 転移学習
   - データ拡張
 
-### [テンサイ・雑草セグメンテーションモデルの作成](notebooks/phenobench.ipynb)
+### [甜菜セグメンテーションモデルの作成](notebooks/phenobench.ipynb)
 
 - phenobenchデータセットの活用
 - segmentation_models_pytorchを用いた領域分割モデルの作成
