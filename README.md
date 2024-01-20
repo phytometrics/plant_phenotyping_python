@@ -18,6 +18,8 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [座標系と表記順序：xyなのかyxなのか、nhwcなのかnchwなのか。](columns/xyyxrc.md)
 
+### [「レナ」を超えて](columns/lenna.md)
+
 ### [機械学習におけるデータセットのフォーマット](columns/dataset_format.md)
 
 ### [データリーク](columns/dataleak.md)
@@ -25,8 +27,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 
 ### [あなたの「説明可能なAI」研究は、本当に説明可能ですか？](columns/explainable_ai.md)
-
-### [「レナ」を超えて](columns/lenna.md)
 
 ## Part 0: Image Analysis Basics for Plant Phenotyping
 
@@ -51,7 +51,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 
-### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)
+### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)　（要アルゴリズム確認)
 
 - ImageJマクロのPython再実装
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数
@@ -92,7 +92,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
   - 転移学習
   - データ拡張
 
-### [テンサイ・雑草セグメンテーションモデルの作成](notebooks/phenobench.ipynb)
+### [甜菜セグメンテーションモデルの作成](notebooks/phenobench.ipynb)
 
 - phenobenchデータセットの活用
 - segmentation_models_pytorchを用いた領域分割モデルの作成
@@ -116,7 +116,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ## Part 3: Utilizing Trained Deep Learning Models for Plant Phenotying
 
-## [大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)（未完)
+### [大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)
 
 - Mask-RCNNを利用したオオムギ種子Intance Segmentation
 
