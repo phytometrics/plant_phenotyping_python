@@ -116,7 +116,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ## Part 3: Utilizing Trained Deep Learning Models for Plant Phenotying
 
-## [大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)（未完)
+### [大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)
 
 - Mask-RCNNを利用したオオムギ種子Intance Segmentation
 
