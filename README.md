@@ -136,7 +136,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 - 時系列補正
 - skeletonizationによるグラフ構造抽出
 
-### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb)
+### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb) (cloud storage deprecated)
 
 - detectron2によるinstance segmenatation + keypoint detection
 
