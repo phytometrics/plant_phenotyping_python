@@ -140,10 +140,10 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 - detectron2によるinstance segmenatation + keypoint detection
 
-### シロイヌナズナのリーフディスク顕微鏡画像を利用した気孔開度定量
+### [シロイヌナズナのリーフディスク顕微鏡画像を利用した気孔開度定量](notebooks/arabidopsis_stomata_leafdisk.ipynb)
 
 - YOLOXによる気孔検出
-- Segmentation Modelsによる気孔開度検出
+- U-Netによる気孔開口領域検出
 
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 
