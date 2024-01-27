@@ -26,8 +26,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 
-### [あなたの「説明可能なAI」研究は、本当に説明可能ですか？](columns/explainable_ai.md)
-
 ## Part 0: Image Analysis Basics for Plant Phenotyping
 
 ### [割米判定アルゴリズムの作成](notebooks/rice_proper_broken.ipynb)
@@ -51,10 +49,10 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 
-### [ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)　（要アルゴリズム確認)
+### ~~[ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)　（要アルゴリズム確認)~~
 
-- ImageJマクロのPython再実装
-- scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数
+- ~~ImageJマクロのPython再実装~~
+- ~~scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数~~
 
 ### [WEIPS：ドローン画像からの雑草除去およびキクイモ表現型定量](notebooks/WEIPS.ipynb)
 
@@ -67,10 +65,10 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 - Vegetation Indicesを使った作物領域のセグメンテーション
 - 時系列間での作物の位置合わせ
 
-### [リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb) （未完）
+### ~~[リンゴの葉形状と遺伝的多様性の解析](notebooks/apple_leaf.ipynb) （未完）~~
 
-- 楕円フーリエ記述子と輪郭形状解析
-- SNPを利用したPCA/GWAS/GS 解析
+- ~~楕円フーリエ記述子と輪郭形状解析~~
+- ~~SNPを利用したPCA/GWAS/GS 解析~~
 
 ### [Aravib: シロイヌナズナの茎振動の定量](notebooks/aravib.ipynb)
 
