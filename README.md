@@ -49,6 +49,10 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 - scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 
+### [リンゴ葉形状解析](notebooks/apple_leaf_shape_analysis.ipynb)
+
+- 手動特徴量・regionrops・楕円フーリエ記述子を用いた葉形状解析
+
 ### ~~[ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)　（要アルゴリズム確認)~~
 
 - ~~ImageJマクロのPython再実装~~
