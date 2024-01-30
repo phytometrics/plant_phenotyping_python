@@ -120,32 +120,17 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)
 
-- Mask-RCNNを利用したオオムギ種子Intance Segmentation
-
 ### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
-
-- HOG特徴量を利用した気孔検出
-- CNNによる気孔開閉判定
-- scikit-imageのregionpropsを利用した気孔開口領域単離と定量
 
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)
 
-- 学習済CNNモデルを利用したイネ収量推論
-
 ### [ChronoRoot:アガープレート生育のシロイヌナズナ根計測](notebooks/chronoroot.ipynb)　（未完）
-
-- semantic segmentationによる根領域の抽出
-- 時系列補正
-- skeletonizationによるグラフ構造抽出
 
 ### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb) (cloud storage deprecated)
 
-- detectron2によるinstance segmenatation + keypoint detection
-
 ### [シロイヌナズナのリーフディスク顕微鏡画像を利用した気孔開度定量](notebooks/arabidopsis_stomata_leafdisk.ipynb)
 
-- YOLOXによる気孔検出
-- U-Netによる気孔開口領域検出
+### [力学試験におけるヒノキ断面の構造的変化の定量的解析](notebooks/cell_wall_deformation.ipynb)
 
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 
