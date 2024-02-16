@@ -53,11 +53,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 - 手動特徴量・regionrops・楕円フーリエ記述子を用いた葉形状解析
 
-### ~~[ブドウ花粉活性度評価](notebooks/pollencounter.ipynb)　（要アルゴリズム確認)~~
-
-- ~~ImageJマクロのPython再実装~~
-- ~~scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数~~
-
 ### [WEIPS：ドローン画像からの雑草除去およびキクイモ表現型定量](notebooks/WEIPS.ipynb)
 
 - MATLABコードのPython再実装
@@ -121,7 +116,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [ChronoRoot:アガープレート生育のシロイヌナズナ根計測](notebooks/chronoroot.ipynb)　（未完）
 
-### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb) 
+### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb)
 
 ### [シロイヌナズナのリーフディスク顕微鏡画像を利用した気孔開度定量](notebooks/arabidopsis_stomata_leafdisk.ipynb)
 
