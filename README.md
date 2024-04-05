@@ -28,7 +28,9 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### 基盤モデルとは？
 
-## Part 0: Image Analysis Basics for Plant Phenotyping
+---
+
+## Part 1: Image Analysis Basics for Plant Phenotyping
 
 ### [割米判定アルゴリズムの作成](notebooks/rice_proper_broken.ipynb)
 
@@ -45,7 +47,9 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 * pandasやplotlyを用いた表データ操作・分析・可視化
 
-## Part 1: Conventional Image Analysis Aproach for Plant Phenotyping
+---
+
+## Part 2: Conventional Image Analysis Aproach for Plant Phenotyping
 
 ### [イネ種子計数・形状解析](notebooks/rice_seed_shape_analysis.ipynb)
 
@@ -71,7 +75,9 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 * Color Thresholdによる特徴点抽出とトラッキング
 * scipyのfftを活用した振動解析
 
-## Part 2: Training Deep Learning Models for Plant Phenotyping
+---
+
+## Part 3: Training Deep Learning Models for Plant Phenotyping
 
 ### [植物病害識別診断モデルの作成](notebooks/plantvilllage.ipynb)
 
@@ -108,7 +114,9 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 * CNN系の特徴量可視化(Grad-CAMなど)
 
-## Part 3: Utilizing Trained Deep Learning Models for Plant Phenotying
+---
+
+## Part 4: Utilizing Trained Deep Learning Models for Plant Phenotying
 
 ### [大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)
 
@@ -138,19 +146,13 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### Grounding DINO
 
-### Segment Anything
+### Efficient SAM
 
-## 以下はMemo
+### Vision compatible LLM
 
-### Grounding DINO
+----
 
-### EfficientSAM
-
-## Grounded-Segment Anythin
-
-### Vision Task対応LLM
-
-## 他、実装検討中
+## Memo
 
 #### ブロッコリー生育予測
 
