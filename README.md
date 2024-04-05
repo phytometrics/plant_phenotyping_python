@@ -128,6 +128,10 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [U2-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
 
+## Part 5: Miscellaneous Topics related to Plant Phenotyping
+
+### [アノテーションサービスを活用した酵母細胞検出モデルの訓練](notebooks/yeast_object_detection.ipynb)
+
 ## Part X: Foundation Models for Plant Phenotyping
 
 ### Grounding DINO
@@ -154,10 +158,11 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
   * [https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010581](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010581)
   * cc-by
+
 * [https://zenodo.org/records/8020856](https://zenodo.org/records/8020856)
   ----------------------------------
 
-- [https://github.com/MorphometricsGroup/iwamasa-2022](https://github.com/MorphometricsGroup/iwamasa-2022)
+* [https://github.com/MorphometricsGroup/iwamasa-2022](https://github.com/MorphometricsGroup/iwamasa-2022)
 
   * mit
 
