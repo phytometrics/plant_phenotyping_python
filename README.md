@@ -26,6 +26,8 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 
+### 基盤モデルとは？
+
 ## Part 0: Image Analysis Basics for Plant Phenotyping
 
 ### [割米判定アルゴリズムの作成](notebooks/rice_proper_broken.ipynb)
@@ -59,7 +61,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 * RGBとDepth情報を用いた領域抽出
 * オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 
-### [ドローン画像からのテンサイ個体認識](notebooks/plant_cataloging.ipynb)（未完)
+### [ドローン画像からのテンサイ個体認識](notebooks/plant_cataloging.ipynb)（未完
 
 * Vegetation Indicesを使った作物領域のセグメンテーション
 * 時系列間での作物の位置合わせ
@@ -126,19 +128,25 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
 
-### [U2-Net (U-Square Net)を利用した葉領域抽出の試み](notebooks/u2netp.ipynb)
-
 ## Part 5: Miscellaneous Topics related to Plant Phenotyping
 
 ### [アノテーションサービスを活用した酵母細胞検出モデルの訓練](notebooks/yeast_object_detection.ipynb)
 
-## Part X: Foundation Models for Plant Phenotyping
+## Part 6: (Task-Specific) Foundation Models for Plant Phenotyping
+
+### [U2-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 
 ### Grounding DINO
 
 ### Segment Anything
 
-* <https://github.com/yformer/EfficientSAM>
+## 以下はMemo
+
+### Grounding DINO
+
+### EfficientSAM
+
+## Grounded-Segment Anythin
 
 ### Vision Task対応LLM
 
@@ -151,30 +159,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
   * [https://spj.science.org/doi/10.34133/plantphenomics.0086](https://spj.science.org/doi/10.34133/plantphenomics.0086)
 * [https://github.com/UTokyo-FieldPhenomics-Lab/UAVbroccoli](https://github.com/UTokyo-FieldPhenomics-Lab/UAVbroccoli)
   * MIT。ただしyolov5はGPLv3　-> 今年agplになった。
-
-#### 葉脈解析
-
-* Network feature-based phenotyping of leaf venation robustly reconstructs the latent space
-
-  * [https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010581](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010581)
-  * cc-by
-
-* [https://zenodo.org/records/8020856](https://zenodo.org/records/8020856)
-  ----------------------------------
-
-* [https://github.com/MorphometricsGroup/iwamasa-2022](https://github.com/MorphometricsGroup/iwamasa-2022)
-
-  * mit
-
-#### Cell segmentation and tracking from time-series sequential images
-
-* Flexural behavior of wood in the transverse direction investigated using novel computer vision and machine learning approach
-  * [https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html](https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html)
-  * cc-by
-* [https://github.com/pywood21/holz_202209](https://github.com/pywood21/holz_202209)
-
-### 他
-
 * colab以外の実装形態
   * .pyファイル
   * ウェブ形式
