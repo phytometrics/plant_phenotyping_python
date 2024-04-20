@@ -134,7 +134,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [葉脈抽出とグラフネットワーク解析](notebooks/leaf_venation.ipynb)
 
-### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
+### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg_240112.ipynb)
 
 ## Part 5: Miscellaneous Topics related to Plant Phenotyping
 
