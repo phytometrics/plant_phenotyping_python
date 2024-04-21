@@ -114,6 +114,10 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 * CNN系の特徴量可視化(Grad-CAMなど)
 
+### SLEAPを利用したキーポイント検出とトラッキングによる植物の動態解析
+
+* キーポイント検出
+
 ---
 
 ## Part 4: Utilizing Trained Deep Learning Models for Plant Phenotying
