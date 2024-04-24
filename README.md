@@ -174,3 +174,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
   * ccby4.0
   * [https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html](https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html)
     -[https://github.com/pywood21/holz_202209](https://github.com/pywood21/holz_202209)
+
+weed ai
+<https://github.com/Weed-AI/Weed-AI/tree/master>
