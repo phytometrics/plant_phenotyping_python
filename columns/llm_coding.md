@@ -2,11 +2,10 @@
 
 ChatGPTを始めとする大規模言語モデル（Large Language Model; LLM）を活用すると、コーディングのアシスト、もしくは完全代行させることができるのではないかと期待されています。例えば2023/11/14時点でのChatGPT4を利用して種子計数形状解析（１）にて使用したイネ種子画像の粒数計測のプログラムを生成させてみましょう。
 
-<img width=25% src="../notebooks/assets/rice_seed_shape/rice.jpg">
-
 ## 人間側の指示（プロンプト）
 
-This image visualizes hundreds of rice seeds on a black background. I want to count how many seeds there are. Build a program for me, along with the counted results calculated.
+This image has hundreds of rice seeds on a black background. I want to count how many seeds there are. Build a program for me, along with the counted results calculated.
+<img width=25% src="../notebooks/assets/rice_seed_shape/rice.jpg">
 
 ## AI側の出力
 
@@ -42,8 +41,6 @@ The program counted 15 rice seeds in the image. However, this result seems to be
 
 ## 改良した人間側の指示（プロンプト）
 
-
-
 このように、少なくとも現状では完全にAIに任せることは難しく、人間との対話や指示・管理が重要です。人間（指示側）に必要なスキルをいくつかの項目に分けてリストアップすると以下のようになります。
 
 ## 要件定義能力
@@ -57,22 +54,22 @@ The program counted 15 rice seeds in the image. However, this result seems to be
 
 プログラミング言語、フレームワーク、アルゴリズム、データベースなどの基本的な知識が求められます。
 
-## コミュニケーションスキル:
+## コミュニケーションスキル
 
 AIに対する指示だけでなく、得られた結果を理解し、必要に応じて指示を修正するためのスキル。
 
-## 問題解決能力:
+## 問題解決能力
 
 AIが提供する解決策に問題がある場合、それを特定し、適切な指示を出す能力。
 プロジェクト管理能力:
 
 進捗管理、タスクの優先順位付け、時間管理などのプロジェクト管理スキル。
 
-## 柔軟な思考力:
+## 柔軟な思考力
 
 AIが提案する解決策を理解し、必要に応じて新しいアプローチを考える能力。
 
-## 品質管理能力:
+## 品質管理能力
 
 AIが作成したコードの品質を評価し、必要に応じて改善指示を出す能力。
 これらのスキルは、AIと協力して効率的にプログラミング作業を進めるために重要です。AIが進化し、より多くのタスクを自動化するにつれて、これらのスキルの重要性はさらに高まるでしょう。

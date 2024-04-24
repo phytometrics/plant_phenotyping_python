@@ -114,6 +114,10 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 * CNN系の特徴量可視化(Grad-CAMなど)
 
+### SLEAPを利用したキーポイント検出とトラッキングによる植物の動態解析
+
+* キーポイント検出
+
 ---
 
 ## Part 4: Utilizing Trained Deep Learning Models for Plant Phenotying
@@ -134,7 +138,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [葉脈抽出とグラフネットワーク解析](notebooks/leaf_venation.ipynb)
 
-### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg.ipynb)
+### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg_240112.ipynb)
 
 ## Part 5: Miscellaneous Topics related to Plant Phenotyping
 
@@ -170,3 +174,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
   * ccby4.0
   * [https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html](https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html)
     -[https://github.com/pywood21/holz_202209](https://github.com/pywood21/holz_202209)
+
+weed ai
+<https://github.com/Weed-AI/Weed-AI/tree/master>
