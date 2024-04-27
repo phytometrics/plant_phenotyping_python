@@ -128,7 +128,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)
 
-### [ChronoRoot:アガープレート生育のシロイヌナズナ根計測](notebooks/chronoroot.ipynb)　（未完）
+### [植物の根のセグメンテーション](notebooks/plantroots.ipynb)
 
 ### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb)
 
@@ -140,15 +140,17 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [PlantSeg:3D共焦点画像からの細胞壁検出と細胞インスタンス・セグメンテーション](notebooks/plantseg_240112.ipynb)
 
-## Part 5: Miscellaneous Topics related to Plant Phenotyping
+## Part 5: Miscellaneous Topics for Plant Phenotyping
 
 ### [アノテーションサービスを活用した酵母細胞検出モデルの訓練](notebooks/yeast_object_detection.ipynb)
 
-## Part 6: (Task-Specific) Foundation Models for Plant Phenotyping
-
 ### [U2-Net (U-Square Net)を利用した葉領域抽出](notebooks/u2netp.ipynb)
 
-### Grounding DINO
+### [Depth Anything：深度推定基盤モデル](notebooks/depth_anything.ipynb)
+
+### [MobileSAM:軽量な基盤モデルによるセグメンテーション](notebooks/MobileSAM.ipynb)
+
+### [GroundingDINO:言語ベースの物体検出](notebooks/GroundingDINO.ipynb)
 
 ### Efficient SAM
 
