@@ -128,7 +128,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)
 
-### [ChronoRoot:アガープレート生育のシロイヌナズナ根計測](notebooks/chronoroot.ipynb)　（未完）
+### [植物の根のセグメンテーション](notebooks/plantroots.ipynb)
 
 ### [StomaAI:シロイヌナズナの表皮断片顕微鏡画像からの気孔開度定量](notebooks/sai.ipynb)
 
