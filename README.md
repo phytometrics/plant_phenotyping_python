@@ -110,11 +110,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 * detectron2ライブラリの活用
 * 注意：データセット非商用ライセンス。本への収録は未定。
 
-### 深層学習モデルの特徴量解釈
-
-* CNN系の特徴量可視化(Grad-CAMなど)
-
-### SLEAPを利用したキーポイント検出とトラッキングによる植物の動態解析
+### [SLEAPを利用したキーポイント検出とトラッキングによる植物の動態解析](notebooks/SLEAP_plant_tracking.ipynb)
 
 * キーポイント検出
 
@@ -152,9 +148,7 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [GroundingDINO:言語ベースの物体検出](notebooks/GroundingDINO.ipynb)
 
-### Efficient SAM
-
-### Vision compatible LLM
+### [LLMによる植物ドメイン画像の視覚的質問応答](notebooks/LLM_rinna.ipynb)
 
 ----
 
