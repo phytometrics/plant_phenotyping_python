@@ -152,10 +152,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [GroundingDINO:言語ベースの物体検出](notebooks/GroundingDINO.ipynb)
 
-### Efficient SAM
-
-### Vision compatible LLM
-
 ----
 
 ## Memo
