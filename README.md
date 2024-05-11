@@ -26,8 +26,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 
-### 基盤モデルとは？
-
 ---
 
 ## Part 1: Image Analysis Basics for Plant Phenotyping
