@@ -63,11 +63,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 * RGBとDepth情報を用いた領域抽出
 * オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 
-### [ドローン画像からのテンサイ個体認識](notebooks/plant_cataloging.ipynb)（未完
-
-* Vegetation Indicesを使った作物領域のセグメンテーション
-* 時系列間での作物の位置合わせ
-
 ### [Aravib: シロイヌナズナの茎振動の定量](notebooks/aravib.ipynb)
 
 * Color Thresholdによる特徴点抽出とトラッキング
