@@ -26,8 +26,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 
-### 基盤モデルとは？
-
 ---
 
 ## Part 1: Image Analysis Basics for Plant Phenotyping
@@ -64,11 +62,6 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 * MATLABコードのPython再実装
 * RGBとDepth情報を用いた領域抽出
 * オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
-
-### [ドローン画像からのテンサイ個体認識](notebooks/plant_cataloging.ipynb)（未完
-
-* Vegetation Indicesを使った作物領域のセグメンテーション
-* 時系列間での作物の位置合わせ
 
 ### [Aravib: シロイヌナズナの茎振動の定量](notebooks/aravib.ipynb)
 
@@ -151,25 +144,3 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 ### [LLMによる植物ドメイン画像の視覚的質問応答](notebooks/LLM_rinna.ipynb)
 
 ----
-
-## Memo
-
-#### ブロッコリー生育予測
-
-* Drone-Based Harvest Data Prediction Can Reduce On-Farm Food Loss and Improve Farmer Income
-  * cc-by
-  * [https://spj.science.org/doi/10.34133/plantphenomics.0086](https://spj.science.org/doi/10.34133/plantphenomics.0086)
-* [https://github.com/UTokyo-FieldPhenomics-Lab/UAVbroccoli](https://github.com/UTokyo-FieldPhenomics-Lab/UAVbroccoli)
-  * MIT。ただしyolov5はGPLv3　-> 今年agplになった。
-* colab以外の実装形態
-  * .pyファイル
-  * ウェブ形式
-    * streamlit, gradio ....
-* VegAnn
-  * [https://www.nature.com/articles/s41597-023-02098-y](https://www.nature.com/articles/s41597-023-02098-y)
-  * ccby4.0
-  * [https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html](https://www.degruyter.com/document/doi/10.1515/hf-2022-0096/html)
-    -[https://github.com/pywood21/holz_202209](https://github.com/pywood21/holz_202209)
-
-weed ai
-<https://github.com/Weed-AI/Weed-AI/tree/master>
