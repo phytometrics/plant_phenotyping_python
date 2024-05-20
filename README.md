@@ -62,14 +62,15 @@ Python言語で学ぶ植物画像解析
 ### イネ種子計数・形状解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/rice_seed_shape_analysis.ipynb)
-
-![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_ND-lightgray)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-blue)
 
 * scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 
 ### リンゴ葉形状解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/apple_leaf_shape_analysis.ipynb)
+
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_ND-lightgray)
 
 * 手動特徴量・regionrops・楕円フーリエ記述子を用いた葉形状解析
 
