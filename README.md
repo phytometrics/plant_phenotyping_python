@@ -41,7 +41,7 @@ Python言語で学ぶ植物画像解析
 ### シロイヌナズナの葉面積定量と生育モデル作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/time_series_growth.ipynb)
-![Colab Exe Stat - Pass: 2024/05/20](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-blue)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-blue)
 
 * HSV閾値による葉面積定量
 * 時系列データの作図
@@ -50,6 +50,8 @@ Python言語で学ぶ植物画像解析
 ### キュウリの茎径と環境データ分析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/env_data_analysis.ipynb)
+
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-blue)
 
 * pandasやplotlyを用いた表データ操作・分析・可視化
 
@@ -60,6 +62,8 @@ Python言語で学ぶ植物画像解析
 ### イネ種子計数・形状解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/rice_seed_shape_analysis.ipynb)
+
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_ND-lightgray)
 
 * scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 
