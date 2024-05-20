@@ -50,7 +50,6 @@ Python言語で学ぶ植物画像解析
 ### キュウリの茎径と環境データ分析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/env_data_analysis.ipynb)
-
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-blue)
 
 * pandasやplotlyを用いた表データ操作・分析・可視化
@@ -69,14 +68,14 @@ Python言語で学ぶ植物画像解析
 ### リンゴ葉形状解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/apple_leaf_shape_analysis.ipynb)
-
-![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_ND-lightgray)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-blue)
 
 * 手動特徴量・regionrops・楕円フーリエ記述子を用いた葉形状解析
 
 ### WEIPS：ドローン画像からの雑草除去およびキクイモ表現型定量
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/WEIPS.ipynb)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-blue)
 
 * MATLABコードのPython再実装
 * RGBとDepth情報を用いた領域抽出
@@ -85,6 +84,7 @@ Python言語で学ぶ植物画像解析
 ### Aravib: シロイヌナズナの茎振動の定量
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/aravib.ipynb)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-blue)
 
 * Color Thresholdによる特徴点抽出とトラッキング
 * scipyのfftを活用した振動解析
@@ -96,6 +96,7 @@ Python言語で学ぶ植物画像解析
 ### 植物病害識別診断モデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/plantvilllage.ipynb)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_ND-lightgray)
 
 * plantvillageデータセットの活用
 * tensorflow.kerasを活用したCNNモデルの構築と訓練
