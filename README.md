@@ -1,6 +1,6 @@
 # Plant Phenotyping for Biologists with Python
 
-Python言語で学ぶ植物画像解析（生物学者向け）
+Python言語で学ぶ植物画像解析
 
 ![title_image](assets/_30b8ab64-b43d-455a-8a6f-ee7b8263def7.jpeg)
 
@@ -113,9 +113,16 @@ Python言語で学ぶ植物画像解析（生物学者向け）
 
 ### [大麦種子計数形状解析](notebooks/barley_seed_shape_analysis.ipynb)
 
+* matterport/MaskRCNNを用いたインスタンスセグメンテーション
+
 ### [DeepStomata: マルバツユクサの気孔開度定量](notebooks/dayflower_stomata_quantification.ipynb)
 
+* dlibライブラリのhog検出器を用いた気孔検出
+* CNNを用いた気孔状態分類
+
 ### [イネ収量予測](notebooks/riceyieldcnn.ipynb)
+
+* 回帰モデル（深層学習ベース）による収量推定
 
 ### [植物の根のセグメンテーション](notebooks/plantroots.ipynb)
 
