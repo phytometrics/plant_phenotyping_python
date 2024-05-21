@@ -33,7 +33,7 @@ Python言語で学ぶ植物画像解析
 ### 割米判定アルゴリズムの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/rice_proper_broken.ipynb)
-![Colab Exe Stat - Pass: 2024/05/20](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-blue)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-blue)
 
 * 画像解析基礎とコメ面積定量
 * 最適な閾値の定義
