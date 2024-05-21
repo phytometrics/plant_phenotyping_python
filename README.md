@@ -96,7 +96,7 @@ Python言語で学ぶ植物画像解析
 ### 植物病害識別診断モデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/plantvilllage.ipynb)
-![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_ND-lightgray)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F03-blue)
 
 * plantvillageデータセットの活用
 * tensorflow.kerasを活用したCNNモデルの構築と訓練
@@ -104,6 +104,7 @@ Python言語で学ぶ植物画像解析
 ### 大麦種子品種識別モデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/barley_seed_classification.ipynb)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F04-blue)
 
 * tensorflow.kerasを活用したCNNモデルの構築と訓練
 * 現場データ収集における問題（データ不足、データ不均衡）に対応する
@@ -114,6 +115,7 @@ Python言語で学ぶ植物画像解析
 ### 甜菜セグメンテーションモデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/phenobench.ipynb)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-ND-lightgray)
 
 * phenobenchデータセットの活用
 * segmentation_models_pytorchを用いた領域分割モデルの作成
@@ -123,6 +125,7 @@ Python言語で学ぶ植物画像解析
 ### 小麦穂検出モデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/globalwheat2021.ipynb)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-ND-lightgray)
 
 * Global Wheat Head Dataset 2021の活用
 * YOLOv8物体検出モデルの学習と推論
@@ -130,6 +133,7 @@ Python言語で学ぶ植物画像解析
 ### カリフラワーインスタンスセグメンテーションモデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/growliflower.ipynb)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F05-blue)
 
 * GrowliFlowerデータセットの活用
 * detectron2ライブラリの活用
