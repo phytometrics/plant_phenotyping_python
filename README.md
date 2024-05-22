@@ -115,7 +115,7 @@ Python言語で学ぶ植物画像解析
 ### 甜菜セグメンテーションモデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/phenobench.ipynb)
-![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-ND-lightgray)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
 * phenobenchデータセットの活用
 * segmentation_models_pytorchを用いた領域分割モデルの作成
