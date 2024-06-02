@@ -229,3 +229,7 @@ Python言語で学ぶ植物画像解析
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
 ----
+
+### Releases
+
+20240602 v1.0
