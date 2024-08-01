@@ -236,6 +236,10 @@ Python言語で学ぶ植物画像解析
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/LLM_rinna.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
+### 開発中
+
+- [sam2を使ったトラッキングとか](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/sam2.ipynb)
+
 ----
 
 ### Releases
