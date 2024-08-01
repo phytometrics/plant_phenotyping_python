@@ -4,9 +4,17 @@ Python言語で学ぶ植物画像解析
 
 ![title_image](assets/_30b8ab64-b43d-455a-8a6f-ee7b8263def7.jpeg)
 
-## [はじめに](columns/introduction.md)
+本レポジトリをベースにした植物フェノタイピング技術書『Pythonで実践・植物画像解析ハンズオン』を発売しました。
+
+- [プレスリリース](https://prtimes.jp/main/html/rd/p/000000001.000140471.html)
+- [ペーパーバック版（pdf版付）](https://phytometrics.booth.pm/items/5699943)　税込7800円（送料別）
+- [pdf版](https://phytometrics.booth.pm/items/5782642)　税込2800円
+
+---
 
 ## Column
+
+## [はじめに](columns/introduction.md)
 
 ### [なんでもかんでもAIっていうんじゃない](columns/using_the_term_AI.md)
 
@@ -35,24 +43,24 @@ Python言語で学ぶ植物画像解析
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/rice_proper_broken.ipynb)
 ![Colab Exe Stat - Pass: 2024/05/20](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-success)
 
-* 画像解析基礎とコメ面積定量
-* 最適な閾値の定義
+- 画像解析基礎とコメ面積定量
+- 最適な閾値の定義
 
 ### シロイヌナズナの時系列成長解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/time_series_growth.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-success)
 
-* HSV閾値による葉面積定量
-* 時系列データの作図
-* 生育モデルの作成
+- HSV閾値による葉面積定量
+- 時系列データの作図
+- 生育モデルの作成
 
 ### キュウリの茎径と環境データ分析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/env_data_analysis.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F20-success)
 
-* pandasやplotlyを用いた表データ操作・分析・可視化
+- pandasやplotlyを用いた表データ操作・分析・可視化
 
 ---
 
@@ -63,22 +71,22 @@ Python言語で学ぶ植物画像解析
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/rice_seed_shape_analysis.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
-* scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
+- scikit-imageのregionpropsとwatershedを利用したオブジェクトの計数と形状解析
 
 ### リンゴ葉形状解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/apple_leaf_shape_analysis.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
-* 手動特徴量・regionrops・楕円フーリエ記述子を用いた葉形状解析
+- 手動特徴量・regionrops・楕円フーリエ記述子を用いた葉形状解析
 
 ### Aravib: シロイヌナズナの茎振動の定量
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/aravib.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
-* Color Thresholdによる特徴点抽出とトラッキング
-* scipyのfftを活用した振動解析
+- Color Thresholdによる特徴点抽出とトラッキング
+- scipyのfftを活用した振動解析
 
 ---
 
@@ -89,52 +97,52 @@ Python言語で学ぶ植物画像解析
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/plantvilllage.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F03-success)
 
-* plantvillageデータセットの活用
-* tensorflow.kerasを活用したCNNモデルの構築と訓練
+- plantvillageデータセットの活用
+- tensorflow.kerasを活用したCNNモデルの構築と訓練
 
 ### 大麦種子品種識別モデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/barley_seed_classification.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F04-success)
 
-* tensorflow.kerasを活用したCNNモデルの構築と訓練
-* 現場データ収集における問題（データ不足、データ不均衡）に対応する
-  * class weights
-  * 転移学習
-  * データ拡張
+- tensorflow.kerasを活用したCNNモデルの構築と訓練
+- 現場データ収集における問題（データ不足、データ不均衡）に対応する
+  - class weights
+  - 転移学習
+  - データ拡張
 
 ### 甜菜セグメンテーションモデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/phenobench.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
-* phenobenchデータセットの活用
-* segmentation_models_pytorchを用いた領域分割モデルの作成
-  * Binary Semantic Segmenatation
-  * MultiClass Semantic Segmentation
+- phenobenchデータセットの活用
+- segmentation_models_pytorchを用いた領域分割モデルの作成
+  - Binary Semantic Segmenatation
+  - MultiClass Semantic Segmentation
 
 ### 小麦穂検出モデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/globalwheat2021.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F05-success)
 
-* Global Wheat Head Dataset 2021の活用
-* YOLOv8物体検出モデルの学習と推論
+- Global Wheat Head Dataset 2021の活用
+- YOLOv8物体検出モデルの学習と推論
 
 ### カリフラワーインスタンスセグメンテーションモデルの作成
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/growliflower.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F05-success)
 
-* GrowliFlowerデータセットの活用
-* detectron2ライブラリの活用
+- GrowliFlowerデータセットの活用
+- detectron2ライブラリの活用
 
 ### SLEAPを利用したキーポイント検出とトラッキングによる植物の動態解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/SLEAP_plant_tracking.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F05-success)
 
-* キーポイント検出
+- キーポイント検出
 
 ---
 
@@ -199,9 +207,9 @@ Python言語で学ぶ植物画像解析
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/WEIPS.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
 
-* MATLABコードのPython再実装
-* RGBとDepth情報を用いた領域抽出
-* オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
+- MATLABコードのPython再実装
+- RGBとDepth情報を用いた領域抽出
+- オルソモザイク画像とデジタルサーフィスモデル画像からの表現型抽出
 
 ### U2-Net (U-Square Net)を利用した葉領域抽出
 
