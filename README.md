@@ -2,13 +2,16 @@
 
 Python言語で学ぶ植物画像解析
 
+---
+
 ![title_image](assets/_30b8ab64-b43d-455a-8a6f-ee7b8263def7.jpeg)
 
 本レポジトリをベースにした植物フェノタイピング技術書『Pythonで実践・植物画像解析ハンズオン』を発売しました。
 
 - [プレスリリース](https://prtimes.jp/main/html/rd/p/000000001.000140471.html)
-- [ペーパーバック版（pdf版付）](https://phytometrics.booth.pm/items/5699943)　税込7800円（送料別）
-- [pdf版](https://phytometrics.booth.pm/items/5782642)　税込2800円
+  - [ペーパーバック版（pdf版付） v1](https://phytometrics.booth.pm/items/5699943)　税込7800円（送料別）
+  - [pdf版 v1](https://phytometrics.booth.pm/items/5782642)　税込2800円
+  - [購入者へのお知らせ・訂正連絡など](notes/updates.md)
 
 ---
 
@@ -235,10 +238,6 @@ Python言語で学ぶ植物画像解析
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/LLM_rinna.ipynb)
 ![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F21-success)
-
-### 開発中
-
-- [sam2を使ったトラッキングとか](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/sam2.ipynb)
 
 ----
 
