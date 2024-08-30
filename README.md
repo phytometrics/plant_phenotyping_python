@@ -37,6 +37,8 @@ Python言語で学ぶ植物画像解析
 
 ### [巨人の肩での研究: ソフトウェアライセンスについて](columns/license_rules.md)
 
+### [植物テーマデータセットまとめ](columns/plant_dataset.md)
+
 ---
 
 ## Part 1: Image Analysis Basics for Plant Phenotyping
