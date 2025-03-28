@@ -165,7 +165,7 @@ Google Colaboratoryのnumpy 2.x系への移行により、一部のノートブ�
 ### DeepStomata: マルバツユクサの気孔開度定量
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/dayflower_stomata_quantification.ipynb)
-![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2024%2F05%2F05-success)
+![Colab Exe Stat](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2025%2F03%2F29-success)
 
 ### シロイヌナズナのリーフディスク顕微鏡画像を利用した気孔開度定量
 
