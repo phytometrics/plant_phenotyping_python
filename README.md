@@ -4,10 +4,6 @@
 
 Google Colaboratoryのnumpy 2.x系への移行により、一部のノートブックが正常に動作しない場合があります。notebookを修正中です。
 
-```python
-
-
-
 ## Python言語で学ぶ植物画像解析
 
 ---
