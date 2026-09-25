@@ -47,20 +47,6 @@ Notice:内容をさらに拡充、アップデートしたバージョン２を�
 
 ---
 
-## 検証済み論文ノートブック
-
-### DeepStomata：学習済みモデルと著者サンプル画像による気孔開度測定
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/phytometrics/plant_phenotyping_python/blob/main/notebooks/deepstomata_verified.ipynb)
-![Colab Exe Stat - Pass: 2026/09/25 CPU](https://img.shields.io/badge/Colab_Exe_Stat-Pass%3A_2026%2F09%2F25_CPU-success)
-
-- [ノートブックを GitHub で見る](notebooks/deepstomata_verified.ipynb) · [対応論文を PhenoPaper で見る](https://phenopaper.smartbreed-plant-phenotyping-platform.com/papers/paper-manual-biorxiv-365098v1)
-- 著者の学習済み HOG+SVM と CNN、および付属画像11枚を使用。気孔検出、4分類、孔の開口量測定を実行します。
-- 新しい標準 Colab CPU runtime で全セルを通し実行済み。114件を検出し、89件で孔を測定。実行結果と注釈画像のプレビューをノートブックに保存しています。
-- モデルの学習や論文の精度評価は含みません。元論文は [CC BY-NC 4.0](https://www.biorxiv.org/content/10.1101/365098v1.full)、[著者のコード](https://github.com/totti0223/deepstomata)は MIT ライセンスです。
-
----
-
 ## Part 1: Image Analysis Basics for Plant Phenotyping
 
 ### 割米判定アルゴリズムの作成
